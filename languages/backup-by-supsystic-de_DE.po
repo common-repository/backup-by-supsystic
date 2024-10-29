@@ -1,0 +1,2252 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Backup by Supsystic 1.2.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-14 12:59+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# Auswählen
+#: classes/field.php:131
+msgid "Select"
+msgstr "Wählen"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "nicht vorhanden"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Kontrollkästchen hinzufügen"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Element hinzufügen"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Radio-Button hinzufügen"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Abmessung"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "Breite"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "Höhe"
+
+#: classes/field.php:323
+msgid "Click to set field \"id\" and \"class\""
+msgstr "Hier klicken um die Felder \"ID\" und \"class\" zu definieren"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Attribute"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Es gibt keine Konfigurationsoptionen für dieses Modul"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Anwenden auf"
+
+#: classes/fieldAdapter.php:95
+msgid "Address"
+msgstr "Adresse"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Ziel"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Land"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Kategorien"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Noch keine Kategorien angelegt"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Marken"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Noch keine Marken angelegt"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Steuersatz"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absolut"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Nicht markiert"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "Klasse"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "ID"
+
+#: classes/frame.php:139
+msgid "You have no permissions to view this page"
+msgstr "Du hast nicht die nötigen Rechte zum betrachten der Seite"
+
+#: classes/html.php:166
+msgid "Upload"
+msgstr "Upload"
+
+#: classes/installer.php:226
+msgid " Page Content"
+msgstr "Seiteninhalt"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Verschieben der Dateien für %s gescheitert"
+
+# I guessed you meant "is not a plugin module" or "is no plugin module"
+#: classes/modInstaller.php:37
+#, fuzzy, php-format
+msgid "%s is not plugin module"
+msgstr "%s ist kein Plugin-Modul"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr ""
+"Kann das Modulverzeichnis nicht erstellen. Versuche Berechtigung umzusetzen"
+
+#: classes/modInstaller.php:104
+msgid "No modules were found in XML file"
+msgstr "Keine Module in der XML-Datei gefunden"
+
+#: classes/modInstaller.php:108
+msgid "Invalid XML file"
+msgstr "Ungültige XML-Datei"
+
+#: classes/modInstaller.php:110
+msgid "No XML file were found"
+msgstr "Keine XML-Datei gefunden"
+
+#: classes/modInstaller.php:123
+#, fuzzy
+#| msgid "No modules were found in XML file"
+msgid "No modules were found in installation file"
+msgstr "Keine Module in der XML-Datei gefunden"
+
+#: classes/modInstaller.php:127
+#, fuzzy
+#| msgid "No XML file were found"
+msgid "No installation file were found"
+msgstr "Keine XML-Datei gefunden"
+
+#: classes/modInstaller.php:146
+#, php-format
+msgid "Install %s failed"
+msgstr "Installieren %s fehlgeschlagen"
+
+#: classes/modInstaller.php:152
+msgid "Error Activate module"
+msgstr "Fehler, Modul aktivieren"
+
+#: classes/modInstaller.php:181
+msgid "Error Deactivation module"
+msgstr "Fehler, Modul deaktivieren"
+
+#: classes/modInstaller.php:198
+msgid "Error Activating module"
+msgstr "Fehler beim Aktivieren des Moduls"
+
+#: classes/model.php:9
+msgid "Before start backup, You must login to "
+msgstr ""
+
+#: classes/model.php:77 modules/backup/models/backup.php:905
+#: modules/onedrive/controller.php:135
+msgid "Unexpected error."
+msgstr "Unerwarteter Fehler."
+
+#: classes/table.php:263
+msgid "Nothig to update"
+msgstr "Keine Veränderungen vorgenommen"
+
+#: classes/table.php:280
+msgid "Database error. Please contact your developer."
+msgstr "Datenbankfehler, bitte Entwickler kontaktieren."
+
+#: classes/tables/files.php:7
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+#: classes/tables/files.php:8
+msgid "File name"
+msgstr "Dateiname"
+
+#: classes/tables/files.php:9
+msgid "Real Path To File"
+msgstr "Echter Dateipfad"
+
+#: classes/tables/files.php:10
+msgid "Mime Type"
+msgstr "Mime Type"
+
+#: classes/tables/files.php:11
+msgid "File Size"
+msgstr "Dateigröße"
+
+#: classes/tables/files.php:12
+msgid "Active Download"
+msgstr "Aktiver Download"
+
+#: classes/tables/files.php:13
+msgid "Upload Date"
+msgstr "Upload-Datum"
+
+#: classes/tables/files.php:14
+msgid "Download Limit"
+msgstr "Download-Limit"
+
+#: classes/tables/files.php:15
+msgid "Period Limit"
+msgstr "Zeit-Limit"
+
+#: classes/tables/files.php:16
+msgid "Descritpion"
+msgstr "Beschreibung"
+
+#: classes/tables/files.php:17
+msgid "Type ID"
+msgstr "Type-ID"
+
+#: classes/tables/htmltype.php:7 classes/tables/log.php:7
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/htmltype.php:8 classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Methode"
+
+#: classes/tables/htmltype.php:9 classes/tables/modules.php:12
+#: classes/tables/options.php:11
+msgid "Description"
+msgstr "Beschreibung"
+
+#: classes/tables/log.php:8 classes/tables/modules.php:8
+#: classes/tables/options.php:12
+msgid "Type"
+msgstr "Type"
+
+#: classes/tables/log.php:9
+msgid "Data"
+msgstr "Data"
+
+#: classes/tables/log.php:10
+msgid "Date created"
+msgstr "Erstellungsdatum"
+
+#: classes/tables/log.php:11
+msgid "User ID"
+msgstr "Benutzernummer"
+
+#: classes/tables/log.php:12
+msgid "Order ID"
+msgstr "Bestellnummer"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Label"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Aktiv"
+
+# I guessed "params" means Parameter, translated it this way subsequently.
+#: classes/tables/modules.php:10
+#, fuzzy
+msgid "Params"
+msgstr "Parameter"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Hat Tab"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+msgid "Code"
+msgstr "Code"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Externes Plugin-Verzeichnis"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Wert"
+
+#: classes/tables/options.php:13
+msgid "Category ID"
+msgstr "Kategorie-ID"
+
+#: classes/tables/options.php:14
+msgid "Sort Order"
+msgstr "Sortierreihenfolge"
+
+#: classes/tables/options.php:15
+msgid "Value Type"
+msgstr "Wert Typ"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Dein Name ist notwenig."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Deine Webseite ist notwenig."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Deine E-Mail-Adresse ist notwenig."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Betreff ist notwenig."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Du musst eine gültige Kategorie angeben."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Nachrichtenfeld ist notwenig"
+
+#: modules/adminmenu/controller.php:28
+#: modules/options/views/tpl/deactivatePage.php:37
+#: modules/pages/views/tpl/deactivatePage.php:37
+msgid "Done"
+msgstr "Fertig"
+
+#: modules/adminmenu/mod.php:10
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: modules/adminmenu/views/adminmenu.php:13 modules/promo_supsystic/mod.php:37
+msgid "Overview"
+msgstr "Überblick"
+
+#: modules/adminmenu/views/adminmenu.php:14 modules/options/views/options.php:7
+msgid "Backup"
+msgstr "Sicherung"
+
+#: modules/adminmenu/views/adminmenu.php:15
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: modules/adminmenu/views/adminmenu.php:16 modules/backup/mod.php:102
+#: modules/backup/views/tpl/backup.index.php:62
+#: modules/backup/views/tpl/backup.index.php:123
+#: modules/backup/views/tpl/backup.index.php:176
+#: modules/backup/views/tpl/backup.index.php:222
+#: modules/backup/views/tpl/backup.index.php:268 modules/log/mod.php:20
+#: modules/storage/views/tpl/storageBlock.php:31
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: modules/adminmenu/views/adminmenu.php:17
+#, fuzzy
+#| msgid "Migrate"
+msgid "Migration"
+msgstr "Migrieren"
+
+#: modules/adminmenu/views/adminmenu.php:18 modules/promo_supsystic/mod.php:43
+msgid "Featured Plugins"
+msgstr ""
+
+#: modules/adminmenu/views/adminmenu.php:23
+msgid "Backup by Supsystic"
+msgstr "Backup by Supsystic"
+
+#: modules/amazon/controller.php:77
+msgid "Credentials are stored in the database"
+msgstr "Login-Daten werden in der Datenbank gespeichert"
+
+#: modules/amazon/controller.php:79
+msgid "Invalid or empty credentials"
+msgstr "Ungültige oder leere Login-Daten"
+
+#: modules/amazon/controller.php:84
+msgid "Bucket stored in the database"
+msgstr "Bucket wird in der Datenbank tgespeichert"
+
+#: modules/amazon/controller.php:86
+msgid "Invalid bucket"
+msgstr "Bucket ungültig"
+
+#: modules/amazon/controller.php:105 modules/dropbox/controller.php:117
+#: modules/onedrive/controller.php:76
+msgid "Please, wait..."
+msgstr "Bitte warten..."
+
+#: modules/amazon/controller.php:137 modules/backup/controller.php:187
+#: modules/dropbox/controller.php:169 modules/gdrive/controller.php:139
+msgid "Done!"
+msgstr "Fertig!"
+
+#: modules/amazon/controller.php:140
+msgid "You did not specify credentials or credentials are invalid"
+msgstr "Du hast keine Logindaten angegeben oder sie sind ungültig"
+
+#: modules/amazon/controller.php:143
+msgid "Bucket not found"
+msgstr "Bucket nicht gefunden"
+
+#: modules/amazon/controller.php:173 modules/dropbox/controller.php:207
+#: modules/gdrive/controller.php:176
+msgid "File successfully deleted"
+msgstr "Datei erfolgreich gelöcht"
+
+#: modules/amazon/controller.php:176
+msgid "Not enough input parameters"
+msgstr "Nicht genug Input-Parameter"
+
+#: modules/amazon/controller.php:179
+msgid "File not found on server"
+msgstr "Datei auf dem Server nicht gefunden"
+
+#: modules/amazon/controller.php:182
+msgid "Failed to delete the selected file"
+msgstr "Markierte Datei kann nicht gelöscht werden"
+
+#: modules/amazon/controller.php:207
+msgid "File not found on Amazon S3"
+msgstr "Datei auf Amazon S3 nicht gefunden"
+
+#: modules/amazon/controller.php:229
+msgid "All stacks not downloaded!"
+msgstr ""
+
+#: modules/amazon/controller.php:233
+#, fuzzy
+#| msgid "File not found on Amazon S3"
+msgid "Files not found on Amazon S3!"
+msgstr "Datei auf Amazon S3 nicht gefunden"
+
+#: modules/amazon/controller.php:249
+#, fuzzy
+#| msgid "Enter your AWS Access Key, Secret Key and Bucket name"
+msgid "Enter your AWS Access Key,<br/>Secret Key and Bucket name"
+msgstr ""
+"Gib deinen AWS-Zugangsschlüssel, deinen Geheimschlüssel und den Bucket-Namen "
+"an"
+
+#: modules/amazon/controller.php:252
+msgid "Access Key"
+msgstr "Zugangsschlüssel"
+
+#: modules/amazon/controller.php:259
+msgid "Secret Key"
+msgstr "Geheimschlüssel"
+
+#: modules/amazon/controller.php:266
+msgid "Bucket"
+msgstr "Bucket"
+
+#: modules/amazon/controller.php:274
+msgid "&nbsp;&nbsp; Save &nbsp;&nbsp;"
+msgstr ""
+
+#: modules/amazon/mod.php:135
+msgid "Before start backup - please authenticate with Amazon."
+msgstr ""
+
+#: modules/amazon/views/tpl/amazon.index.php:4
+#: modules/dropbox/views/tpl/dropbox.index.php:4
+#: modules/gdrive/views/tpl/gdrive.index.php:5
+#: modules/onedrive/views/tpl/onedrive.error.php:13
+#: modules/onedrive/views/tpl/onedrive.index.php:6
+msgid "Logout"
+msgstr "Logout"
+
+#: modules/backup/controller.php:92
+#, fuzzy
+#| msgid "Clear out old temporary files"
+msgid "Clear temporary directory"
+msgstr "Temporäre Dateien löschen"
+
+#: modules/backup/controller.php:132
+#, fuzzy
+#| msgid "Send request to generate temporary file stacks"
+msgid "Send request to create backup"
+msgstr "Anfrage senden um temporäre Dateien zu erstellen"
+
+#: modules/backup/controller.php:177
+msgid "Unable to restore from "
+msgstr "Wiederherstellen nicht möglich von"
+
+#: modules/backup/controller.php:183
+msgid ""
+"Unable to restore backup files. Check folder or files writing permissions. "
+"Try to set 766 permissions to the:"
+msgstr ""
+"Wiederherstellen der Sicherungsdateien nicht möglich. Ordner auf "
+"Schreibrechte hin überprüfen. Versuche 776 Berechtigung zu setzen für:"
+
+#: modules/backup/controller.php:232
+msgid "Backup successfully removed"
+msgstr "Sicherung erfolgreich entfernt"
+
+#: modules/backup/controller.php:235
+msgid "Unable to delete backup"
+msgstr "Löschen der Sicherung nicht möglich"
+
+#: modules/backup/controller.php:248
+msgid "Successfully!"
+msgstr "Erfolgreich!"
+
+#: modules/backup/controller.php:261
+msgid "Setting saved!"
+msgstr "Einstellungen gespeichert!"
+
+#: modules/backup/controller.php:263
+msgid "Database error, please try again"
+msgstr "Datenbankfehler, bitte nochmal versuchen"
+
+#: modules/backup/controller.php:288
+msgid ""
+"There are no zlib extension on your server. This mean that you can make only "
+"database backup.<br/>Check this link <a target=\"_blank\" href=\"http://php."
+"net/manual/en/zlib.installation.php\">http://php.net/manual/en/zlib."
+"installation.php</a> or contact your hosting provider and ask them to "
+"resolve this issue for you."
+msgstr ""
+"Es gibt keine zlib-Erweiterung auf deinem Server. Das bedeutet du kannst nur "
+"die Datenbank sichern. .<br/>Folge diesem Link <a target=\"_blank\" href="
+"\"http://php.net/manual/en/zlib.installation.php\">http://php.net/manual/en/"
+"zlib.installation.php</a> oder kontaktiere deinen Webhosting-Provider und "
+"bitte ihn das für dich zu erledigen."
+
+#: modules/backup/controller.php:296
+msgid ""
+"There are no ZipArchive library on your server. This mean that you can make "
+"only database backup.<br/>Check this link <a target=\"_blank\" href=\"http://"
+"php.net/manual/en/book.zip.php\">http://php.net/manual/en/book.zip.php</a> "
+"or contact your hosting provider and ask them to resolve this issue for you."
+msgstr ""
+"Es gibt keine ZipArchive library auf deinem Server. Das bedeutet du kannst "
+"nur die Datenbank sichern. .<br/>Folge diesem Link  <a target=\"_blank\" "
+"href=\"http://php.net/manual/en/book.zip.php\">http://php.net/manual/en/book."
+"zip.php</a> oder kontaktiere deinen Webhosting-Provider und bitte ihn das "
+"für dich zu erledigen."
+
+#: modules/backup/controller.php:383
+#, fuzzy
+#| msgid "Backup complete"
+msgid "Backup complete!"
+msgstr "Sicherung vollständig und erfolgreich"
+
+#: modules/backup/mod.php:189
+msgid "Local Backup"
+msgstr "lokale Sicherung"
+
+#: modules/backup/models/backup.php:103
+#, fuzzy
+#| msgid "Can not find file "
+msgid "Scanning files."
+msgstr "Kann die Datei nicht finden"
+
+#: modules/backup/models/backup.php:106
+msgid "Total stacks: "
+msgstr ""
+
+#: modules/backup/models/backup.php:118
+msgid "Creating filesystem backup 0%"
+msgstr ""
+
+#: modules/backup/models/backup.php:149 modules/backup/models/backup.php:159
+#, fuzzy
+#| msgid "Filesystem backup %s does not exists"
+msgid "Filesystem backup complete"
+msgstr "Dateisystem Sicherung %s existiert nicht"
+
+#: modules/backup/models/backup.php:172
+#, fuzzy
+#| msgid "Files and Database backup"
+msgid "Creating database backup 0%"
+msgstr "Dateien- und Datenbanksicherung"
+
+#: modules/backup/models/backup.php:208
+#, fuzzy
+#| msgid "Database backup"
+msgid "Database backup complete"
+msgstr "Datenbanksicherung"
+
+#: modules/backup/models/backup.php:289
+msgid "Authentication required."
+msgstr "Authentifizierung benötigt"
+
+#: modules/backup/models/backup.php:292 modules/dropbox/models/dropbox.php:274
+msgid "File not found"
+msgstr "Datei nicht gefunden"
+
+#: modules/backup/models/backup.php:295
+msgid "Unexpected error (500)"
+msgstr "Unerwarteter Fehler (500)"
+
+#: modules/backup/models/backup.php:298
+msgid "Unexpected error"
+msgstr "Unerwarteter Fehler"
+
+#: modules/backup/models/backup.php:347
+#, fuzzy
+#| msgid "Backup successfully removed"
+msgid "Backup successful complete!"
+msgstr "Sicherung erfolgreich entfernt"
+
+#: modules/backup/models/backup.php:351
+msgid "Backup by Supsystic Notifications"
+msgstr "Backup by Supsystic Benachrichtigungen"
+
+#: modules/backup/models/backup.php:353
+msgid "Email notification required."
+msgstr "E-Mail-Benachrichtigung notwendig"
+
+#: modules/backup/models/backup.php:354
+#, fuzzy
+#| msgid "Sending to"
+msgid "Sending to "
+msgstr "Senden an"
+
+#: modules/backup/models/backup.php:934
+msgid "Undefined"
+msgstr ""
+
+#: modules/backup/models/backupLog.php:66
+#: modules/backup/models/backupLogTxt.php:86
+msgid ""
+"Please, don't delete the line that is lower, it is used for technical "
+"purposes!"
+msgstr ""
+"Bitte lösche keine Zeilen unterhalb diese Linie, sie werden für technische "
+"Zwecke benötigt!"
+
+#: modules/backup/models/backupLog.php:94
+#: modules/backup/models/backupLogTxt.php:37
+msgid "Backup settings: "
+msgstr "Sicherungseinstellungen:"
+
+#: modules/backup/models/backupLog.php:97
+#: modules/backup/models/backupLogTxt.php:40
+#: modules/options/views/tpl/backupOptions.php:50
+#: modules/options/views/tpl/backupOptions.php:53
+msgid "Full backup"
+msgstr "Volle Sicherung"
+
+#: modules/backup/models/backupLog.php:100
+#: modules/backup/models/backupLogTxt.php:43
+#: modules/options/views/tpl/backupOptions.php:61
+msgid "Wordpress Core"
+msgstr "Wordpress Core"
+
+#: modules/backup/models/backupLog.php:103
+#: modules/backup/models/backupLogTxt.php:46
+#: modules/options/views/tpl/backupOptions.php:72
+#: modules/options/views/tpl/backupOptions.php:75
+msgid "Plugins folder"
+msgstr "Plugins Ordner"
+
+#: modules/backup/models/backupLog.php:106
+#: modules/backup/models/backupLogTxt.php:49
+#: modules/options/views/tpl/backupOptions.php:83
+#: modules/options/views/tpl/backupOptions.php:86
+msgid "Themes folder"
+msgstr "Themes Ordner"
+
+#: modules/backup/models/backupLog.php:109
+#: modules/backup/models/backupLogTxt.php:52
+#: modules/options/views/tpl/backupOptions.php:94
+#: modules/options/views/tpl/backupOptions.php:97
+msgid "Uploads folder"
+msgstr "Uploads Ordner"
+
+#: modules/backup/models/backupLog.php:112
+#: modules/backup/models/backupLogTxt.php:55
+#: modules/options/views/tpl/backupOptions.php:105
+#: modules/options/views/tpl/backupOptions.php:108
+msgid "Any folder inside wp-content"
+msgstr "Jeder Ordner innerhalb von wp-content"
+
+#: modules/backup/models/backupLog.php:118
+#: modules/backup/models/backupLogTxt.php:61
+msgid "Exclude: "
+msgstr "Ausnahme"
+
+#: modules/backup/models/backupLog.php:121
+#: modules/backup/models/backupLogTxt.php:64
+msgid "Email notification: "
+msgstr "E-Mail-Benachrichtigung:"
+
+#: modules/backup/models/database.php:196
+msgid "Secret key for decrypt DB data wrong! Please, try again."
+msgstr ""
+"Geheimschlüssel zum entschlüsseln der Datenbankdaten falsch! Versuche es "
+"nochmal."
+
+#: modules/backup/models/database.php:214
+#: modules/backup/models/database.php:418
+msgid ""
+"Your MySQL server does not support transactions, \"safe update\" unavailable"
+msgstr ""
+"Dein MySQL Server understützt keine Transaktionen, \"sicheres update\" nicht "
+"verfügbar."
+
+#: modules/backup/models/database.php:309
+msgid "Error: unexpected fgets() fail"
+msgstr "Fehler: Unerwarteter fgets() Fehler"
+
+#: modules/backup/models/database.php:314
+msgid "Unable to clear the database before restoring"
+msgstr "Löschen der Datenbank vor dem Wiederherstellen nicht möglich"
+
+#: modules/backup/models/database.php:343
+msgid "Can not find file "
+msgstr "Kann die Datei nicht finden"
+
+#: modules/backup/models/database.php:366
+msgid ""
+"Revision of backup and your database do not match. You must enable the Force "
+"Update options to update (at one's own risk)"
+msgstr ""
+"Die Version deiner Sicherung und die deiner Datenbank stimmen nicht überein. "
+"Du musst die Option \"Update erzwingen\" aktivieren zum updaten. (Auf dein "
+"eigenes Risiko!\""
+
+#: modules/backup/models/database.php:375
+msgid ""
+"This backup was made on another version of WordPress. You must enable the "
+"Force Update options to update (at one's own risk)"
+msgstr ""
+"Diese Sicherung wurde auf einer anderen WordPress-Version erstellt. Du musst "
+"die Option \"Update erzwingen\" aktivieren zum updaten (Auf dein eigenes "
+"Risiko!\""
+
+#: modules/backup/models/database.php:384
+msgid ""
+"Backup was created with a different version of the plugin. You must enable "
+"the Force Update options to update (at one's own risk)"
+msgstr ""
+"Die Sicherung wurde mit einer anderen Version des Plugins erstellt. Du musst "
+"die Option \"Update erzwingen\" aktivieren zum updaten (Auf dein eigenes "
+"Risiko!\""
+
+#: modules/backup/models/filesystem.php:33
+#, php-format
+msgid "Filesystem backup %s does not exists"
+msgstr "Dateisystem Sicherung %s existiert nicht"
+
+#: modules/backup/models/filesystem.php:66
+msgid "An error has occurred while unpacking the archive"
+msgstr "Ein Fehler ist während des Entpackens des Archivs aufgetreten"
+
+#: modules/backup/views/tpl/backup.index.php:10
+msgid " / Start:"
+msgstr "/Start:"
+
+#: modules/backup/views/tpl/backup.index.php:11
+msgid " / Finish:"
+msgstr "/Ende:"
+
+#: modules/backup/views/tpl/backup.index.php:21
+msgid "Backup to <b>FTP</b> / ID"
+msgstr "Sichern nach <b>FTP</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:57
+#: modules/backup/views/tpl/backup.index.php:114
+#: modules/backup/views/tpl/backup.index.php:168
+#: modules/backup/views/tpl/backup.index.php:218
+#: modules/backup/views/tpl/backup.index.php:260
+msgid "Filesystem"
+msgstr "Dateisystem"
+
+#: modules/backup/views/tpl/backup.index.php:57
+#: modules/backup/views/tpl/backup.index.php:114
+#: modules/backup/views/tpl/backup.index.php:168
+#: modules/backup/views/tpl/backup.index.php:218
+#: modules/backup/views/tpl/backup.index.php:260
+msgid "Database"
+msgstr "Datenbank"
+
+#: modules/backup/views/tpl/backup.index.php:68
+#: modules/backup/views/tpl/backup.index.php:131
+#: modules/backup/views/tpl/backup.index.php:182
+#: modules/backup/views/tpl/backup.index.php:225
+#: modules/backup/views/tpl/backup.index.php:276
+msgid "Delete"
+msgstr "Entfernen"
+
+#: modules/backup/views/tpl/backup.index.php:75
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:35
+msgid "Download"
+msgstr "Herunterladen"
+
+#: modules/backup/views/tpl/backup.index.php:86
+#: modules/backup/views/tpl/backup.index.php:141
+#: modules/backup/views/tpl/backup.index.php:192
+#: modules/backup/views/tpl/backup.index.php:234
+#: modules/backup/views/tpl/backup.index.php:285
+msgid "Show Backup Log"
+msgstr "Sicherungsprotokoll zeigen"
+
+#: modules/backup/views/tpl/backup.index.php:88
+#: modules/backup/views/tpl/backup.index.php:143
+#: modules/backup/views/tpl/backup.index.php:194
+#: modules/backup/views/tpl/backup.index.php:236
+#: modules/backup/views/tpl/backup.index.php:287
+msgid "Log is clear."
+msgstr "Protokoll ist leer"
+
+#: modules/backup/views/tpl/backup.index.php:104
+msgid "Backup to <b>GoogleDrive</b> / ID"
+msgstr "Sichern nach <b>GoogleDrive</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:158
+msgid "Backup to <b>OneDrive</b> / ID"
+msgstr "Sichern nach <b>OneDrive</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:209
+msgid "Backup to <b>Amazon S3</b> / ID"
+msgstr "Sichern nach <b>Amazon S3</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:251
+msgid "Backup to <b>DropBox</b> / ID"
+msgstr "Sichern nach<b>DropBox</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:303
+msgid "Backups don't exist!"
+msgstr "Sicherungen existieren nicht!"
+
+#: modules/backup/views/tpl/backup.index.php:313
+msgid "Restore Presets:"
+msgstr "Voreinstellungen wiederherstellen"
+
+#: modules/backup/views/tpl/backup.index.php:316
+msgid "Safe Update"
+msgstr "Sicheres Update"
+
+#: modules/backup/views/tpl/backup.index.php:318
+msgid ""
+"If the ckeckbox is set up, the database backup will be performed. This will "
+"let the database backup work in the transaction mode, i.e. should there "
+"occur any failure during the data base recovery, no data from the data-base "
+"backup will be transferred to the data-base. The data-base backup recovery "
+"will occur if and only there were no failures during the process. If the "
+"ckeckbox is not set up the data-base backup will be performed without "
+"transaction mode."
+msgstr ""
+"Wenn das Kontrollkästchen aktiviert ist wird eine Sicherung der Datenbank "
+"erstellt. Das wird die Datenbanksicherung in den Transaktionsmodus "
+"versetzen. Das heißt: sollten irgendwelche Fehler während der "
+"Datenbankwiederherstellung auftreten, werden keine Daten der "
+"Datenbanksicherung zur Datenbank transferiert. Die Datenbank "
+"Sicherungswiederherstellung wird nur fortfahren wenn es keine Fehler während "
+"dieses Prozesses gibt. Ist das Kontrollkästchen nicht aktiviert, wird die "
+"Datenbanksicherung ohne den Transaktionsmodus fortgesetzt."
+
+#: modules/backup/views/tpl/backup.index.php:328
+msgid "Force Update"
+msgstr "Update erzwingen"
+
+#: modules/backup/views/tpl/backup.index.php:330
+msgid ""
+"When backup is performed, the labels are usually put at the beginning of the "
+"file dump, such as: WordPress version for the backup; WordPress data-base "
+"version for the backup; the plugin version for the backup. At recovering, if "
+"the force has been off, the backup will not be performed, because it will "
+"constantly pop up with the message, that the version is incorrect (the "
+"version of WordPress, the version of WordPress data-base or the plugin "
+"version). If the force has been on, there will be no such system check and "
+"the recovery will be performed."
+msgstr ""
+"Wenn eine Datenbanksicherung durchgeführt wird, werden die Bezeichnungen für "
+"gewöhnlich am Anfang des File-Dumps gesetzt, wie zum Beispiel: WordPress "
+"Version für die Sicherung; WordPress Datenbank-Version für die Sicherung; "
+"Die Plugin-Version für die Sicherung. Bei unterschiedlichen Versionen (Von "
+"WordPress, der Datenbank oder des Plugins) wird die Sicherung wegen des "
+"Versionschecks nicht wiederhergestellt, wenn 'erzwingen' ausgestellt ist. "
+"Schaltet man 'erzwingen' ein, wird eine solche Versionsüberprüfung nicht "
+"durchgeführt und die Wiederherstellung wird wie geplant fortgesetzt."
+
+#: modules/backup/views/tpl/backup.index.php:342
+msgid "Backup Log:"
+msgstr "Sicherungsprotokoll"
+
+#: modules/backup/views/tpl/backup.index.php:348
+msgid "Get PRO Verion!"
+msgstr "Hol' dir die PRO-Version!"
+
+#: modules/backup/views/tpl/backup.index.php:350
+msgid ""
+"Please, be advised, that this option is available only in PRO version. You "
+"can"
+msgstr "Diese Funktion ist nur in der PRO-Version verfügbar. Du kannst"
+
+#: modules/backup/views/tpl/backup.index.php:351
+#: modules/promo_supsystic/mod.php:12
+#: modules/promo_supsystic/views/tpl/migrationPromo.php:9
+#: modules/promo_supsystic/views/tpl/schedulePromo.php:7
+msgid "Get PRO"
+msgstr "beziehe PRO"
+
+#: modules/dropbox/controller.php:130
+msgid "Your server not meet the requirements Dropbox SDK"
+msgstr ""
+"Dein Server erfüllt nicht die notwendigen Spezifikationen des Dropbox SDK"
+
+#: modules/dropbox/controller.php:172 modules/dropbox/models/dropbox.php:252
+#: modules/dropbox/models/dropbox52.php:359
+#: modules/dropbox/models/dropbox52.php:396 modules/gdrive/controller.php:142
+#: modules/gdrive/controller.php:179 modules/gdrive/controller.php:197
+msgid "Authentication required"
+msgstr "Authentifizierung notwenig"
+
+#: modules/dropbox/controller.php:175 modules/gdrive/controller.php:149
+msgid "Nothing to upload"
+msgstr "Nichts zum Hochladen"
+
+#: modules/dropbox/controller.php:203 modules/gdrive/controller.php:172
+msgid "Nothing to delete"
+msgstr "Nichts zum Entfernen"
+
+#: modules/dropbox/controller.php:227
+msgid "There was an error during recovery"
+msgstr "Es gab einen Fehler während der Wiederherstellung"
+
+#: modules/dropbox/controller.php:256
+msgid "All files not downloaded from DropBox, please, try again"
+msgstr ""
+
+#: modules/dropbox/controller.php:259 modules/onedrive/controller.php:174
+#, fuzzy
+#| msgid "File not found on server"
+msgid "Files not found on OneDrive"
+msgstr "Datei auf dem Server nicht gefunden"
+
+#: modules/dropbox/mod.php:132
+msgid "Your server does not support the Dropbox without cURL extension"
+msgstr "Dein Server unterstützt Dropbox ohne die cURL-Erweiterung nicht"
+
+#: modules/dropbox/mod.php:156
+msgid "Before start backup - please authenticate with DropBox."
+msgstr ""
+
+#: modules/dropbox/views/tpl/dropbox.auth.php:8
+#: modules/gdrive/views/tpl/gdrive.auth.php:15
+#: modules/onedrive/views/tpl/onedrive.auth.php:3
+msgid "Authenticate"
+msgstr "Aithentifizieren"
+
+#: modules/gdrive/controller.php:21
+msgid "Your server do not have curl extension installed."
+msgstr "Dein Server hat die curl-Erweiterung nicht installiert"
+
+#: modules/gdrive/controller.php:22
+msgid "This extension is required by Google API SDK."
+msgstr "Diese Erweiterung ist Notwendig für die Google API SDK."
+
+#: modules/gdrive/controller.php:23
+msgid "Please install it at first."
+msgstr "Bitte installiere es zuerst"
+
+#: modules/gdrive/controller.php:24
+msgid "You can also check following links for more info:"
+msgstr "Du kannst außerdem diesem Link für mehr Informationen folgen:"
+
+#: modules/gdrive/controller.php:40
+msgid ""
+"For long-term storage of Google Drive authorization, please re-connect our "
+"application in your personal account of Google Drive."
+msgstr ""
+"Verbinde bitte die Applikation in deinem persönlichen Google Drive Account "
+"erneut für eine Langzeitsicherung der Google Drive authorisierung."
+
+#: modules/gdrive/controller.php:55
+msgid "Your server is not support Google API Client Library."
+msgstr "Deom Server unterstützt die Google API Client Library nicht."
+
+#: modules/gdrive/controller.php:57
+msgid "PHP JSON extension required"
+msgstr "PHP JSON Erweiterung ist erforderlich"
+
+#: modules/gdrive/controller.php:99
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: modules/gdrive/controller.php:225
+#, fuzzy
+#| msgid "File not found on Google Drive"
+msgid "Files not found on Google Drive"
+msgstr "Datei auf Google Drive nicht gefunden"
+
+#: modules/gdrive/controller.php:232
+msgid "File not found on Google Drive"
+msgstr "Datei auf Google Drive nicht gefunden"
+
+#: modules/gdrive/controller.php:234
+msgid "Failed to download file"
+msgstr "Herunterladen der Datei fehlgeschlagen"
+
+#: modules/gdrive/mod.php:125
+msgid "Before start backup - please authenticate with Google Drive."
+msgstr ""
+
+#: modules/gdrive/models/gdrive.php:341
+msgid "Unable to get parent folder ID."
+msgstr "ID des übergeordneten Ordners nicht gefunden."
+
+#: modules/log/models/log.php:27
+#, fuzzy
+#| msgid "Bucket not found"
+msgid "Settings not found!"
+msgstr "Bucket nicht gefunden"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr ""
+
+#: modules/onedrive/controller.php:104
+msgid "Deleted successfully"
+msgstr "Erfolgreich entfernt"
+
+#: modules/onedrive/controller.php:122 modules/onedrive/models/onedrive.php:429
+msgid "Authorization required."
+msgstr "Authorisierung erforderlich."
+
+#: modules/onedrive/controller.php:127
+msgid "Uploaded successfully."
+msgstr "Erfolgreich hochgeladen."
+
+#: modules/onedrive/controller.php:153
+msgid "File downloaded."
+msgstr "Datei heruntergeladen."
+
+#: modules/onedrive/mod.php:89
+msgid "Before start backup - please authenticate with OneDrive."
+msgstr ""
+
+#: modules/onedrive/models/onedrive.php:438
+msgid "Enexpected error."
+msgstr "Unerwarteter Fehler."
+
+#: modules/onedrive/models/onedrive.php:453
+msgid "Failed to save downloaded file."
+msgstr "Speichern der heruntergeladenen Datei fehlgeschlagen."
+
+#: modules/onedrive/views/tpl/onedrive.authError.php:4
+msgid "Authentication failed."
+msgstr "Authentifizierung fehlgeschlagen."
+
+#: modules/onedrive/views/tpl/onedrive.error.php:4
+msgid "An error has been occured."
+msgstr "Fehler!"
+
+#: modules/options/controller.php:10 modules/options/controller.php:21
+msgid "Save Complete"
+msgstr "Speichern erfolgreich."
+
+#: modules/options/mod.php:20
+msgid "General"
+msgstr "Generell"
+
+#: modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Modul aktualisiert"
+
+#: modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Aktualisieren des Moduls fehlgeschlagen"
+
+#: modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "Fehler Modul ID"
+
+#: modules/options/models/options.php:27
+msgid "Incorrect email address"
+msgstr "Inkorrekte E-Mail-Adresse"
+
+#: modules/options/models/options.php:39
+msgid "No change"
+msgstr "Keine Änderung"
+
+#: modules/options/models/options.php:57
+msgid "PRO version is not activated"
+msgstr "PRO-Version nicht aktiviert."
+
+#: modules/options/models/options.php:61
+msgid "No selected options"
+msgstr "Keine Optionen gewählt"
+
+#: modules/options/models/options.php:246
+msgid "Option "
+msgstr "Option"
+
+#: modules/options/models/options.php:248
+msgid "Invalid option ID or Code"
+msgstr "Ungültige Option ID oder ungültiger Code"
+
+#: modules/options/models/options.php:251
+msgid "Empty data to save option"
+msgstr "Daten löschen um die Option zu speichern"
+
+#: modules/options/models/options.php:291
+#: modules/options/models/options.php:307
+msgid "Empty data to setup"
+msgstr "Daten löschen um zu Installieren"
+
+#: modules/options/models/options.php:321
+#: modules/options/models/options.php:323
+#: modules/options/models/options.php:344
+#: modules/options/models/options.php:346
+#: modules/options/models/options.php:376
+#: modules/options/models/options.php:378
+msgid "There is no default for this option and current template"
+msgstr "Es gibt keinen Standardwert für diese Option und das aktuelle Template"
+
+#: modules/options/models/options.php:325
+#: modules/options/models/options.php:348
+#: modules/options/models/options.php:380
+msgid "Empty option code"
+msgstr "Leerer Optionscode"
+
+#: modules/options/models/options.php:358
+#: modules/options/models/options.php:390
+msgid "Unable to remove image"
+msgstr "Entfernen des Bilders fehlgeschlagen"
+
+#: modules/options/views/tpl/backupOptions.php:7
+msgid "Where to backup"
+msgstr "Ort der Sicherung"
+
+#: modules/options/views/tpl/backupOptions.php:44
+msgid "What to backup"
+msgstr "Was wird gesichert"
+
+#: modules/options/views/tpl/backupOptions.php:64
+msgid ""
+"All folders and files backup in the root directory, where the WordPress is "
+"installed, except the /wp-content folder."
+msgstr ""
+"Alle Dateien und Ordner sichern welche sich im Root-Verzeichnis befinden, in "
+"dem WordPress installiert ist, abgesehen vom /wp-content Ordner"
+
+#: modules/options/views/tpl/backupOptions.php:116
+#: modules/options/views/tpl/backupOptions.php:119
+msgid "Database backup"
+msgstr "Datenbanksicherung"
+
+#: modules/options/views/tpl/backupOptions.php:127
+msgid "Secret key for DB"
+msgstr "Geheimschlüssel für die Datenbank"
+
+#: modules/options/views/tpl/backupOptions.php:130
+msgid "Secret key for encrypting DB data"
+msgstr "Geheimschlüssel für das Verschlüsseln der Datenbankdateien"
+
+#: modules/options/views/tpl/backupOptions.php:146
+#, fuzzy
+#| msgid "Additional setting"
+msgid "Additional Settings"
+msgstr "Zusätzliche Einstellung"
+
+#: modules/options/views/tpl/backupOptions.php:159
+msgid ""
+"The maximum size of a single file which will be added to the stack. If the "
+"plugin can not create backup of the file system (for example it hangs) - try "
+"to reduce the size. It is not recommended to put a value less than 10MB, "
+"because in this case, the backup will not include high-resolution images. If "
+"you want to put all the files in the backup - set value to 0"
+msgstr ""
+
+#: modules/options/views/tpl/backupOptions.php:159
+msgid "Max size of file in stack(MB):"
+msgstr ""
+
+#: modules/options/views/tpl/backupOptions.php:166
+msgid "Specify and enter files and folders names which must not be backed up."
+msgstr ""
+"Dateien und Ordner spezifizieren, welche von der Datensicherung ausgenommen "
+"sind"
+
+#: modules/options/views/tpl/backupOptions.php:166
+msgid "Exclude:"
+msgstr "Ausschließen:"
+
+#: modules/options/views/tpl/backupOptions.php:168
+msgid ""
+" If entering multiple files/directories, then separate them with commas."
+msgstr ""
+"Wenn mehrere Verzeichnise oder Dateien eingegeben werden, dann trenne sie "
+"mit Kommata."
+
+#: modules/options/views/tpl/backupOptions.php:173
+msgid "Email notification"
+msgstr "E-Mail-Benachrichtigung"
+
+#: modules/options/views/tpl/backupOptions.php:173
+msgid "Email notification:"
+msgstr "E-Mail-Benachrichtigung"
+
+#: modules/options/views/tpl/backupOptions.php:180
+msgid "Email address is wrong, please check it: "
+msgstr ""
+
+#: modules/options/views/tpl/backupOptions.php:188
+msgid ""
+"Specify the path where the data is to be backed up. It 'Use relative path' "
+"ckeckbox has been set up, the path will be set against in the root "
+"directory, where the WordPress is installed. If 'Use relative path' checkbox "
+"has been of, the full path to the disk root should be specified."
+msgstr ""
+"Pfad spezifizieren in dem die Daten gesichert werden sollen. Falls das "
+"Kontrollkästchen für 'Relativen Pfad verwenden' aktiviert ist, wird der Pfad "
+"auf das Root-Verzeichnis, in dem WordPress installiert ist gesetzt. Ist das "
+"Kontrollkästchen deaktiviert, muss der komplette angegeben werden."
+
+#: modules/options/views/tpl/backupOptions.php:189
+msgid "Warehouse:"
+msgstr "Speicherort"
+
+#: modules/options/views/tpl/backupOptions.php:208
+msgid ""
+"If the checkbox has been set up, then the backup path must be specified in "
+"the Warehouse field against the root directory, where the WordPress is "
+"installed. if the checkbox has been off, then the backup path must be "
+"specified in the Warehouse field against the disk root.\""
+msgstr ""
+"Wenn das Kontrollkästchen aktiviert ist, muss der Pfad im Lager Feld auf das "
+"Root-Verzeichnis gelegt werden, ist das Kontrollkästchen deaktivert muss der "
+"Pfad im Lager Feld auf das Root-Verzeichnis des Laufwerks gelegt werden."
+
+#: modules/options/views/tpl/backupOptions.php:209
+msgid "Use relative path"
+msgstr "Nutze relativen Pfad"
+
+#: modules/options/views/tpl/backupOptions.php:226
+msgid "Path to directory, where will be stored backup files."
+msgstr "Pfad zum Verzeichnis in dem die Sicherungsdateien gespeichert sind."
+
+#: modules/options/views/tpl/deactivatePage.php:33
+#: modules/pages/views/tpl/deactivatePage.php:33
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr ""
+"Lösche Plugin-Daten (Optionen, Installationsdaten, Datenbanktabellen, etc.)"
+
+#: modules/options/views/tpl/mainOptionsTab.php:9
+msgid ""
+"To restore website backup, be sure that all files and folders in the core "
+"directory have writing permissions. Backup restoration can rewrite some of "
+"them."
+msgstr ""
+"Um ein Webseitenbackup wiederherzustellen musst du dich vergewissern, dass "
+"du Schreibrechte im Core-Verzeichnis hast. Das Wiederherstellen einer "
+"Sicherung kann einige dieser Rechte überschreiben."
+
+#: modules/options/views/tpl/mainOptionsTab.php:29
+msgid "Where to Backup:"
+msgstr "Speicherort der Sicherung"
+
+#: modules/options/views/tpl/mainOptionsTab.php:31
+msgid "Available space:"
+msgstr "Verfügbarer Speicher:"
+
+#: modules/options/views/tpl/mainOptionsTab.php:39
+msgid "An errors has been occured while initialize warehouse module."
+msgstr ""
+"Ein Fehler ist während des Initialisierens des Lagermoduls aufgetreten."
+
+#: modules/options/views/tpl/mainOptionsTab.php:49
+msgid "Show Log"
+msgstr "Zeige Protokoll"
+
+#: modules/options/views/tpl/mainOptionsTab.php:54
+msgid "Backup already in process."
+msgstr "Sicherung bereits gestartet"
+
+#: modules/pages/views/tpl/pagesTab.php:14
+msgid "Pages Options"
+msgstr "Seiten Optionen"
+
+#: modules/pages/views/tpl/pagesTab.php:17
+msgid "Recreate Pages"
+msgstr "Seiten Wiederherstellen"
+
+#: modules/pages/views/tpl/pagesTab.php:18
+msgid ""
+"If you accidently deleted one of plugin page - Login, or Checkout, or "
+"Shopping cart for example, just click on this button - and pages, that you "
+"deleted, will be created again. Do not use it without emergency."
+msgstr ""
+"Falls du ausversehen eine der Pluginseiten gelöscht hast - Login, Checkout "
+"oder Einkaufswagen zum Beispiel, dann drücke auf diese Schaltfläche - Seiten "
+"die du gelöscht hast werden wieder erstellt. Nur im Notfall benutzen. "
+
+#: modules/promo_supsystic/controller.php:6
+msgid "Information was saved. Thank you!"
+msgstr "Information  gespeichert. Danke!"
+
+#: modules/promo_supsystic/controller.php:63
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+
+#: modules/promo_supsystic/controller.php:79
+#, php-format
+msgid "Please select %s"
+msgstr ""
+
+#: modules/promo_supsystic/controller.php:79
+#, fuzzy, php-format
+#| msgid "Please enter your License Key"
+msgid "Please enter %s"
+msgstr "Bitte deinen Lizenzschlüssel eingeben"
+
+#: modules/promo_supsystic/controller.php:85
+#, fuzzy
+#| msgid "Please enter your Email address"
+msgid "Please enter valid email address"
+msgstr "Bitte deine E-Mail-Adresse eingeben"
+
+#: modules/promo_supsystic/mod.php:12
+msgid ""
+"Please, be advised, that this option is available only in PRO version. You "
+"can "
+msgstr "Diese Option ist nur in der PRO-Version verfügbar. Du kannst"
+
+#: modules/promo_supsystic/mod.php:71
+msgid "Name"
+msgstr "Name"
+
+#: modules/promo_supsystic/mod.php:72
+msgid "Email"
+msgstr "Email"
+
+#: modules/promo_supsystic/mod.php:73
+msgid "Website"
+msgstr "Webseite"
+
+#: modules/promo_supsystic/mod.php:74
+msgid "Subject"
+msgstr "Betreff"
+
+#: modules/promo_supsystic/mod.php:75
+msgid "Topic"
+msgstr "Thema"
+
+#: modules/promo_supsystic/mod.php:76
+msgid "Plugin options"
+msgstr "Plugin Optionen"
+
+#: modules/promo_supsystic/mod.php:77
+msgid "Report a bug"
+msgstr "Fehler melden"
+
+#: modules/promo_supsystic/mod.php:78
+msgid "Require a new functionallity"
+msgstr "Feature beantragen"
+
+#: modules/promo_supsystic/mod.php:79
+msgid "Other"
+msgstr "Andere"
+
+#: modules/promo_supsystic/mod.php:81
+msgid "Message"
+msgstr "Nachricht"
+
+#: modules/promo_supsystic/mod.php:81
+msgid "Hello Supsystic Team!"
+msgstr "Hallo Supsystic Team!"
+
+#: modules/promo_supsystic/mod.php:94
+msgid "Schedule <p class=\"bupAIP\">Available In PRO</p>"
+msgstr "Zeitplan <p class=\"bupAIP\">in der PRO-Version verfübar!</p>"
+
+#: modules/promo_supsystic/mod.php:100
+#, fuzzy
+#| msgid "Schedule <p class=\"bupAIP\">Available In PRO</p>"
+msgid "Migration <p class=\"bupAIP\">Available In PRO</p>"
+msgstr "Zeitplan <p class=\"bupAIP\">in der PRO-Version verfübar!</p>"
+
+#: modules/promo_supsystic/mod.php:110
+msgid "Remote FTP Server"
+msgstr "Remote-FTp-Server"
+
+#: modules/promo_supsystic/mod.php:111
+msgid "Remote SFTP(SCP) Server"
+msgstr "Remote SFTP(SCP) Server"
+
+#: modules/promo_supsystic/mod.php:112
+msgid "Remote FTPS Server"
+msgstr "Remote FTPS Server"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:23
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Wie kann ich die PRO-Version des Plugins KOSTENLOS bekommn?"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:23
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target=\"_blank\" href=\"%s\">\"Get "
+"PRO version of any plugin for FREE\"</a>"
+msgstr ""
+"Du hast die unglaubliche Möglichkeit die PRO-Version des Plugins umsonst zu "
+"bekommen. Fertige eine Übersetzung des Plugins an! Mehr Informationen kannst "
+"du hier finden: <a target=\"_blank\" href=\"%s\">\"PRO kostenlo erhalten!\"</"
+"a>"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:24
+msgid "Translation"
+msgstr "Übersetzung"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:24
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English</b><br />Translate or update a "
+"translation Backup WordPress plugin in your language and get a Premium "
+"license for FREE. <a target=\"_blank\" href=\"%s\">Contact us</a>."
+msgstr ""
+"Alle verfügbaren Sprachen werden mit dem Supsystic Google Maps Plugin "
+"geliefert. Wenn ihre Sprache nicht verfügbar ist, wird die Standardsprache "
+"auf Englisch gestellt. <br /><b>Verfügvare Übersetzungen: Englisch <br /><b> "
+"Übersetze oder verbessere eine Übersetzung des Backup WordPress Plugins in "
+"deiner Sprache und\n"
+"erhalte kostenlos eine Premium Lizenz. <a target=\"_blank\" href=\"%s"
+"\">Kontaktiere uns</a>."
+
+#: modules/promo_supsystic/views/promo_supsystic.php:41
+#, php-format
+msgid ""
+"There were some problem while trying to retrive our news, but you can always "
+"check all list <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr ""
+"Es gab Probleme beim Laden der Neuigkeiten. Du kannst sie <a target=\"_blank"
+"\" href=\"%s\">hier</a> checken."
+
+#: modules/promo_supsystic/views/promo_supsystic.php:52
+#: modules/promo_supsystic/views/promo_supsystic.php:57
+#: modules/promo_supsystic/views/promo_supsystic.php:59
+#: modules/promo_supsystic/views/promo_supsystic.php:60
+msgid "Yes"
+msgstr "Ja"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:52
+#: modules/promo_supsystic/views/promo_supsystic.php:57
+#: modules/promo_supsystic/views/promo_supsystic.php:59
+#: modules/promo_supsystic/views/promo_supsystic.php:60
+msgid "No"
+msgstr "Nein"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:93
+msgid "Popup Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:93
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:94
+msgid "Slider Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:94
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select "
+"images from your WordPress Media Library, Flickr, Instagram or Facebook, set "
+"slide captions, links and SEO fields all from one page."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:95
+msgid "Photo Gallery Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:95
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:96
+msgid "Data Tables Generator"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:96
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML "
+"knowledge is required."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:97
+msgid "Social Share Buttons"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:97
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:98
+msgid "Live Chat Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:98
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by "
+"Supsystic. Help you visitors, support them in real-time with exceptional "
+"Live Chat WordPress plugin by Supsystic."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:99
+msgid "Pricing Table"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:99
+msgid ""
+"It’s never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:100
+msgid "Coming Soon Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:100
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:101
+#, fuzzy
+#| msgid "Backup Log:"
+msgid "Backup Plugin"
+msgstr "Sicherungsprotokoll"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:101
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and "
+"unhitched DropBox, FTP, Amazon S3, Google Drive backup for your WordPress "
+"website."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:102
+msgid "Google Maps Easy"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:102
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:103
+msgid "Digital Publication Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:103
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:104
+#, fuzzy
+#| msgid "Contact form"
+msgid "Contact Form Plugin"
+msgstr "Kontaktformular"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:104
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:105
+msgid "Newsletter Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:105
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:106
+#, fuzzy
+#| msgid "Backup by Supsystic"
+msgid "Membership by Supsystic"
+msgstr "Backup by Supsystic"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:106
+msgid ""
+"Create online membership community with custom user profiles, roles, "
+"FrontEnd registration and login. Members Directory, activity, groups, "
+"messages."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:107
+msgid "Kinsta Hosting"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:107
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:31
+msgid ""
+"If you want to host a business site or a blog, Kinsta managed WordPress "
+"hosting is the best place to stop on. Without any hesitation, we can say "
+"Kinsta is incredible when it comes to uptime and speed."
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:4
+msgid "Version"
+msgstr "Version"
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:9
+msgid "Get"
+msgstr "Holen"
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:9
+msgid "License"
+msgstr "Lizenz"
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:13
+msgid "Support"
+msgstr "Support"
+
+#: modules/promo_supsystic/views/tpl/adminSendStatNote.php:9
+msgid "No, don\\'t send"
+msgstr "Nein, nicht senden"
+
+#: modules/promo_supsystic/views/tpl/adminSendStatNote.php:26
+msgid "Yes, send statistics"
+msgstr "Ja, Statistiken senden"
+
+#: modules/promo_supsystic/views/tpl/discountMsg.php:37
+#, php-format
+msgid ""
+"Upgrade to bundle and get an access to <a href=\"%s\" target=\"_blank\">all "
+"14 plugins</a> more than 80%% off!"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/discountMsg.php:38
+msgid "Buy Now"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/migrationPromo.php:5
+msgid ""
+"On this tab with PRO version of plugin, you can migrate this site to other "
+"hosting."
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "FAQ und Dokumentation"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Alle FAQs überprüfen"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:22
+msgid "Video tutorial"
+msgstr "Video-Anleitung"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:37
+msgid "Server Settings"
+msgstr "Servereinstellungen"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:50
+msgid "News"
+msgstr "Nachrichten"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:56
+msgid "All news and info"
+msgstr "Alle Nachrichten und Informationen"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:61
+msgid "Contact form"
+msgstr "Kontaktformular"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Email senden"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:106
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. "
+"Thank you for support!"
+msgstr ""
+"Deine E-Mail wurde versandt, wir werden uns so bald wie möglich mit dir in "
+"Verbindung setzen. Danke für deine Unterstützung!"
+
+#: modules/templates/mod.php:11
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: modules/templates/views/tpl/noTemplates.php:1
+msgid "No Templates were found"
+msgstr "Keine Vorlagen gefunden"
+
+#: modules/templates/views/tpl/templatesTab.php:42
+msgid "Template Updated. Reload page to see results."
+msgstr "Vorlage aktualisiert. Seite Neuladen um Resultate zu sehen."
+
+#: modules/templates/views/tpl/templatesTab.php:71
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: modules/templates/views/tpl/templatesTab.php:72
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: modules/warehouse/mod.php:73
+#, php-format
+msgid "Folder \"%s\" is not writable."
+msgstr "Ordner %s ist nicht beschreibbar."
+
+#: modules/warehouse/mod.php:85
+#, php-format
+msgid "Can't create warehouse directory \"%s\"."
+msgstr "Kann Lager-Verzeichnis \"%s\" nicht erstellen."
+
+#: modules/warehouse/models/temporary.php:69
+#, php-format
+msgid "Failed to clear temporary folder by pattern \"%s\""
+msgstr "Konnte den Temporären Ordner nach Verzeichnis %s nicht löschen."
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Ein unerwarteter HTTP-Fehler ist während der API-Anforderung aufgetreten "
+#~ "</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;"
+#~ "\">Versuche es nochmal</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Ein unbekannter Fehler ist aufgetreten"
+
+#~ msgid "Please, try again!"
+#~ msgstr "Bitte versuche es nochmal!"
+
+#~ msgid ""
+#~ "Your license is expired. Once you extend your license - you will be able "
+#~ "to Update PRO version. To extend PRO version license - follow <a href=\"%s"
+#~ "\" target=\"_blank\">this link</a>, then - go to <a href=\"%s\">License</"
+#~ "a> tab anc click on \"Re-activate\" button to re-activate your PRO "
+#~ "version."
+#~ msgstr ""
+#~ "Deine Lizenz ist abgelaufen. Wenn du deine Lizenz verlängerst wirst du in "
+#~ "der Lage sein auf die PRO-Version upzugraden. Um auf die PRO-Version "
+#~ "upzugraden folge <a href=\"%s\" target=\"_blank\">diesem Link</a>, dann "
+#~ "gehe auf <a href=\"%s\">Lizenz</a> unnd klick auf \"Re-activate\" um "
+#~ "deine PRO-Version erneut zu aktivieren."
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin - expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - go to "
+#~ "<a href=\"%s\">License</a> tab anc click on \"Re-activate\" button to re-"
+#~ "activate your PRO version."
+#~ msgstr ""
+#~ "Deine Lizenz für die PRO-Version des %s Plugins ist abgelaufen. Du kannst "
+#~ "<a href=\"%s\" target=\"_blank\">hier klicken</a> um deine Lizenz zu "
+#~ "verlängern, folge <a href=\"%s\">Lizenz</a>  und klick auf \"Re-Activate"
+#~ "\" um deine PRO-Version zu reaktivieren."
+
+#~ msgid ""
+#~ "There was a problem with sending request to our autentification server. "
+#~ "Please try latter."
+#~ msgstr ""
+#~ "Es gab ein Problem beim Senden deiner Anfrage zu unserem "
+#~ "Authentifikationsserver. Bitte versuche es später noch einmal."
+
+#~ msgid "License for plugin %s will expire today."
+#~ msgstr "Die Lizenz für das Plugin %s wird heute ablaufen"
+
+#~ msgid "License for plugin %s will expire tomorrow."
+#~ msgstr "Die Lizenz für das Plugin %s wird morgen ablaufen"
+
+#~ msgid "<p>License for plugin %s will expire in %d days.</p>"
+#~ msgstr "<p>Die Lizenz für das Plugin %s wird in %d Tagen ablaufen.</p>"
+
+#~ msgid ""
+#~ "Congratulations! PRO version of %s plugin is activated and working fine!"
+#~ msgstr ""
+#~ "Herzlichen Glückwunsch! Die PRO-Version des %s Plugins ist nun aktiviert!"
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin - expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - click "
+#~ "on \"Re-activate\" button to re-activate your PRO version."
+#~ msgstr ""
+#~ "Deine Lizenz für die PRO-Version des %s Plugins ist abgelaufen. Du kannst "
+#~ "<a href=\"%s\" target=\"_blank\">hier klicken</a>um deine Lizenz zu "
+#~ "verlängern, und dann auf \"Re-activate\" klicken um deine Pro-Version zu "
+#~ "reaktivieren."
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed PRO version of %s "
+#~ "plugin. Final step to finish Your PRO version setup - is to enter your "
+#~ "Email and License Key on this page. This will activate Your copy of "
+#~ "software on this site."
+#~ msgstr ""
+#~ "Herzlichen Glückwunsch! Du hast die PRO-Version des %s Plugins "
+#~ "erfolgreich installiert! Der letzte Schritt zum fertigstellen deiner PRO-"
+#~ "Version ist deine E-Mail-Adresse und deinen Lizenzschlüssel auf dieser "
+#~ "Seite einzugeben. Das wird deine Kopie des Programms auf dieser Seite "
+#~ "aktivieren."
+
+#~ msgid ""
+#~ "Your email address, used on checkout procedure on <a href=\"%s\" target="
+#~ "\"_blank\">%s</a>"
+#~ msgstr ""
+#~ "Folgende E-Mail-Adresse wurde beim Checkout gewählt: <a href=\"%s\" "
+#~ "target=\"_blank\">%s</a>"
+
+#~ msgid "License Key"
+#~ msgstr "Lizenzschlüssel"
+
+#~ msgid ""
+#~ "Your License Key from your account on <a href=\"%s\" target=\"_blank\">"
+#~ "%s</a>"
+#~ msgstr ""
+#~ "Dein Lizenzschlüssel von deinem Konto auf <a href=\"%s\" target=\"_blank"
+#~ "\">%s</a>"
+
+#~ msgid "Re-activate"
+#~ msgstr "Re-Aktivieren"
+
+#~ msgid "License for plugin '"
+#~ msgstr "Lizenz für das Plugin"
+
+#~ msgid ""
+#~ "We're happy you keep using our product.<br/>Kindly note that testing "
+#~ "period of PRO Version is over in two days. You can <button class=\"button "
+#~ "button-primary button-small bupShowBuyDialog\">Get PRO</button> just for "
+#~ "29$"
+#~ msgstr ""
+#~ "Wir sind glücklich, dass du unser Produkt verwendest <br/> Wir weisen "
+#~ "dich darauf hin, dass die Testperiode für die PRO-Version in zwei Tagen "
+#~ "vorüber sein wird. Du kannst die <button class=\"button button-primary "
+#~ "button-small bupShowBuyDialog\">PRO-Version</button> für nur 29$ erstehen."
+
+#~ msgid "This log created by Migration module, on site: "
+#~ msgstr "Dieses Log wurde vom Migrationsmodul auf folgender Seite erstellt:"
+
+#~ msgid "Backup files don't exist!"
+#~ msgstr "Sicherungsdateien existieren nicht!"
+
+#~ msgid ""
+#~ "Entered secret key for decrypt/encrypt DB data wrong! Please, try again."
+#~ msgstr ""
+#~ "Der Geheimschlüssel für das Ver-/Entschlüsseln der Datenbank ist "
+#~ "inkorrekt, bitte nochmal versuchen."
+
+#~ msgid "Find"
+#~ msgstr "Finden"
+
+#~ msgid "Replace"
+#~ msgstr "Ersetzen"
+
+#~ msgid "Site URL"
+#~ msgstr "Seiten-URL"
+
+#~ msgid "WordPress directory"
+#~ msgstr "WordPress Verzeichnis"
+
+#~ msgid "New WP directory"
+#~ msgstr "Neues WordPress Verzeichnis"
+
+#~ msgid "Please, check connecting params!"
+#~ msgstr "Bitte überprüfe die Verbindungsparameter!"
+
+#~ msgid "Error, please try again"
+#~ msgstr "Fehler, bitte versuche es nochmal"
+
+#~ msgid "Host name is wrong!"
+#~ msgstr "Host Name ist falsch!"
+
+#~ msgid "User or password don't be empty!"
+#~ msgstr "Benutzer oder Passwort darf nicht leer sein!"
+
+#~ msgid "Wrong path on remote server!"
+#~ msgstr "Falscher Pfad auf dem remote Server."
+
+#~ msgid "Invalid login or password!"
+#~ msgstr "Benutzername oder Passwort ungültig"
+
+#~ msgid ""
+#~ "There are no FTP extension on your server. You need to install it. How to "
+#~ "install check this link <a target=\"_blank\" href=\"http://php.net/manual/"
+#~ "en/book.ftp.php\">http://php.net/manual/en/book.ftp.php</a>"
+#~ msgstr ""
+#~ "Es gibt keine FTP-Erweiterung auf deinem Server. Du musst sie "
+#~ "installieren. Folge diesem Link für eine Anleitung <a target=\"_blank\" "
+#~ "href=\"http://php.net/manual/en/book.ftp.php\">http://php.net/manual/en/"
+#~ "book.ftp.php</a>"
+
+#~ msgid ""
+#~ "There are no FTPS extension on your server. You need to install it. How "
+#~ "to install check this link <a target=\"_blank\" href=\"http://php.net/"
+#~ "manual/en/function.ftp-ssl-connect.php\">http://php.net/manual/en/"
+#~ "function.ftp-ssl-connect.php</a>"
+#~ msgstr ""
+#~ "Es gibt keine FTPS-Erweiterung auf deinem Server. Du musst sie "
+#~ "installieren. Folge diesem Link für eine Anleitung <a target=\"_blank\" "
+#~ "href=\"http://php.net/manual/en/function.ftp-ssl-connect.php\">http://php."
+#~ "net/manual/en/function.ftp-ssl-connect.php</a>"
+
+#~ msgid ""
+#~ "There are no SFTP(Secure Shell2) extension on your server. You need to "
+#~ "install it. How to install check this link <a target=\"_blank\" href="
+#~ "\"http://php.net/manual/en/book.ssh2.php\">http://php.net/manual/en/book."
+#~ "ssh2.php</a>"
+#~ msgstr ""
+#~ "Es gibt keine FTPS-Erweiterung auf deinem Server. Du musst sie "
+#~ "installieren. Folge diesem Link für eine Anleitung <a target=\"_blank\" "
+#~ "href=\"http://php.net/manual/en/book.ssh2.php\">http://php.net/manual/en/"
+#~ "book.ssh2.php</a>"
+
+#~ msgid "Store params"
+#~ msgstr "Parameter speichern"
+
+#~ msgid "Schedule successfully removed!"
+#~ msgstr "Zeitplan erfolgreich entfernt!"
+
+#~ msgid "Once Weekly"
+#~ msgstr "Wöchentlich"
+
+#~ msgid "Once a month"
+#~ msgstr "Monatlich"
+
+#~ msgid "Schedule Edit"
+#~ msgstr "Zeitplan bearbeiten"
+
+#~ msgid "Schedule successfully edited!"
+#~ msgstr "Zeitplan erfolgreich bearbeitet!"
+
+#~ msgid "Cannot create schedule \""
+#~ msgstr "Kann keinen Zeitplan erstellen\""
+
+#~ msgid "Name will be unique, \""
+#~ msgstr "Der Name wird eindeutig sein"
+
+#~ msgid "exist in DB."
+#~ msgstr "existiert in der Datenbank."
+
+#~ msgid "Schedule successfully created!"
+#~ msgstr "Zeitplan erfolgreich erstellt!"
+
+#~ msgid "Schedule must have name!"
+#~ msgstr "Zeitplan muss einen Namen haben!"
+
+#~ msgid "Please try again!"
+#~ msgstr "Versuche es später noch einmal!"
+
+#~ msgid "Start backup schedule:"
+#~ msgstr "Zeitplan für die Sicherung starten:"
+
+#~ msgid "files scanned."
+#~ msgstr "Dateien gesacannt."
+
+#~ msgid "Create a backup of the file system:"
+#~ msgstr "Erstelle eine Sicherung des Dateisystems:"
+
+#~ msgid "Create a backup of the database:"
+#~ msgstr "Erstelle eine Sicherung der Datenbank"
+
+#~ msgid "Errors during creation of database backup, errors count"
+#~ msgstr ""
+#~ "Fehler während dem Erstellen der Datenbanksicherung, Anzahl der Fehler"
+
+#~ msgid "Upload to the"
+#~ msgstr "Hochladen nach"
+
+#~ msgid "required"
+#~ msgstr "erforderlich"
+
+#~ msgid "Files to upload:"
+#~ msgstr "Dateien zum hochladen:"
+
+#~ msgid "Successfully uploaded to the"
+#~ msgstr "Erfolgreich hochgeladen nach"
+
+#~ msgid ". Backup Error!"
+#~ msgstr ". Datensicherungsfehler!"
+
+#~ msgid "Every hour"
+#~ msgstr "Stündlich"
+
+#~ msgid "Twice a day"
+#~ msgstr "2x täglich"
+
+#~ msgid "Every day"
+#~ msgstr "Täglich"
+
+#~ msgid "Every week"
+#~ msgstr "Wöchentlich"
+
+#~ msgid "Every month"
+#~ msgstr "Monatlich"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "OneDrive"
+#~ msgstr "OneDrive"
+
+#~ msgid "Google Drive"
+#~ msgstr "Google Drive"
+
+#~ msgid "Dropbox"
+#~ msgstr "Dropbox"
+
+#~ msgid "Amazon S3"
+#~ msgstr "Amazon S3"
+
+#~ msgid "Schedule Settings"
+#~ msgstr "Zeitplan Einstellungen"
+
+#~ msgid "Every twice a day"
+#~ msgstr "Zwei mal täglich"
+
+#~ msgid ""
+#~ "If entering multiple files/directories, then separate them with commas."
+#~ msgstr ""
+#~ "Falls mehrere Dateien / Verzeichnisse angelegt werden, mit einem Komma "
+#~ "trennen"
+
+#~ msgid ""
+#~ "If the checkbox has been set up, then the backup path must be specified "
+#~ "in the Warehouse field against the root directory, where the WordPress is "
+#~ "installed. if the checkbox has been off, then the backup path must be "
+#~ "specified in the Warehouse field against the disk root."
+#~ msgstr ""
+#~ "Wenn das Kontrollkästchen aktiviert ist, muss der Pfad der Datensicherung "
+#~ "im Feld Speicherort auf das Root-Verzeichnis gesetzt werden, wo WordPress "
+#~ "installiert ist. Ist das Kontrollkästchen deaktiviert, muss der Pfad der "
+#~ "Sicherung vom Root-Verzeichnis des Laufwerks zum Speicherort angegeben "
+#~ "werden."
+
+#~ msgid "User relative path:"
+#~ msgstr "relativen Pfad verwenden"
+
+#~ msgid ""
+#~ "Backup schedule will upload data to the cloud services. To make the work "
+#~ "of backup scheduler smooth and correct, you need to be constantly "
+#~ "authorized on these services.\n"
+#~ "            Mind that if you're logged in on the page where back up is "
+#~ "being launched manually, you're automatically authorized on the editing "
+#~ "page of the back up plugin and vice versa. If you're logged out any of "
+#~ "these pages, you're non authorized on both of them."
+#~ msgstr ""
+#~ "Der Sicherungszeitplan wird Daten bei den Cloud-Diensten hochladen. Damit "
+#~ "der Zeitplan korrekt funktioniert, musst du konstant bei diesen Diensten "
+#~ "authorisiert sein.\n"
+#~ "Bedenke, wenn du auf der Seite auf der die Sicherung ist manuell "
+#~ "eingeloggt bist, dann bist du automatisch authorisiert die Einstellungen "
+#~ "der Sicherung zu ändern und umgekehrt. Wenn du bei einem von beiden "
+#~ "Diensten ausgeloggt bist, verlierst du die Authorisierung bei beiden "
+#~ "Diensten."
+
+#~ msgid "Schedule Name:"
+#~ msgstr "Zeitplan Name"
+
+#~ msgid "Enable Schedule"
+#~ msgstr "Zeitplan aktivieren"
+
+#~ msgid "Save Schedule"
+#~ msgstr "Zeitplan speichern"
+
+#~ msgid "Create new schedule"
+#~ msgstr "Neuen Zeitplan erstellen"
+
+#~ msgid ""
+#~ "<span class=\"bupWarningRed\">Warning:</span> The plugin can not increase "
+#~ "the standard work time of the script, please contact your hosting "
+#~ "provider.<br />\n"
+#~ "                        Detailed description <a class=\"bupBlueLink\" "
+#~ "target=\"_blank\" href=\"http://www.php.net/manual/en/info.configuration."
+#~ "php#ini.max-execution-time\">here</a><br />Current max_execution_time = "
+#~ msgstr ""
+#~ "<span class=\"bupWarningRed\">Warnung:</span> Das Plugin kann die "
+#~ "Standardarbeitszeit des Skripts nicht verlängern, bitte kontaktiere "
+#~ "deinen Webhosting-Anbieter. <br />\n"
+#~ "                        Detailierte Beschreibung <a class=\"bupBlueLink\" "
+#~ "target=\"_blank\" href=\"http://www.php.net/manual/en/info.configuration."
+#~ "php#ini.max-execution-time\">hier</a><br />Current max_execution_time = "
+
+#~ msgid "Schedules"
+#~ msgstr "Zeitpläne"
+
+#~ msgid "Periodicity"
+#~ msgstr "Intervall"
+
+#~ msgid "Backup content"
+#~ msgstr "Inhalt der Sicherung"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Store credentials"
+#~ msgstr "Logindaten speichern"
+
+#~ msgid "Unable to create the temporary archive"
+#~ msgstr "Erstellen des temporären Archivs fehlgeschlagen"
+
+#~ msgid "Exclude"
+#~ msgstr "ausschließen"
+
+#~ msgid "Warehouse"
+#~ msgstr "Lager"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Wordpress.org"
+#~ msgstr "Wordpress.org"
+
+#~ msgid "Refer a friend"
+#~ msgstr "Freunden Empfehlen"
+
+#~ msgid "Find on the web"
+#~ msgstr "Im Web finden"
+
+#~ msgid "Other way..."
+#~ msgstr "Auf eine andere Art und Weise"
+
+#~ msgid "Welcome to"
+#~ msgstr "Willkommen zu"
+
+#~ msgid "This is first start up of the "
+#~ msgstr "Das ist der erste Start von"
+
+#~ msgid ""
+#~ "If you are newbie - check all features on that page, if you are guru - "
+#~ "please correct us."
+#~ msgstr ""
+#~ "Du bist ein Neuling, überprüfe alle features auf der Seite. Wenn du ein "
+#~ "Guru bist, kannst du uns gerne korrigieren."
+
+#~ msgid "Where did you find us?"
+#~ msgstr "Wo hast du uns gefunden?"
+
+#~ msgid "What to do next? Check below section:"
+#~ msgstr "Was jetzt? Check den nächsten Abschnitt"
+
+#~ msgid "Boost us:"
+#~ msgstr "Unterstütze uns:"
+
+#~ msgid ""
+#~ "It's amazing when you boost development with your feedback and ratings. "
+#~ "So we create special <a target=\"_blank\" href=\"https://supsystic.com/"
+#~ "\">boost page</a> to help you to help us."
+#~ msgstr ""
+#~ "Es ist toll wenn du unsere Entwicklung mit Feedback und Bewertungen "
+#~ "unterstützt. Wir haben eigens eine <a target=\"_blank\" href=\"https://"
+#~ "supsystic.com/\">Unterstützungsseite</a> erstellt, um dir zu helfen uns "
+#~ "zu unterstützen."
+
+#~ msgid "Documentation:"
+#~ msgstr "Dokumentation"
+
+#~ msgid ""
+#~ "Check <a target=\"_blank\" href=\"https://supsystic.com/\">documentation</"
+#~ "a> and FAQ section. If you can't solve your problems - <a target=\"_blank"
+#~ "\" href=\"http://supsystic.com/contacts/\">contact us</a>."
+#~ msgstr ""
+#~ "Checke die <a target=\"_blank\" href=\"https://supsystic.com/"
+#~ "\">Dokumentation</a> und die FAQ-Sektion. - <a target=\"_blank\" href="
+#~ "\"http://supsystic.com/contacts/\">Kontaktiere uns</a> wenn du Probleme "
+#~ "hast."
+
+#~ msgid "Full Features List:"
+#~ msgstr "Liste aller Features"
+
+#~ msgid "There are so many features, so we can't post it here. Like:"
+#~ msgstr ""
+#~ "Es gibt so viele Features, dass wir sie gar nicht alle hier posten "
+#~ "können. Wie zum Beispiel:"
+
+#~ msgid "Backup to the Dropbox"
+#~ msgstr "Sicherung zur Dropbox"
+
+#~ msgid "FTP backup"
+#~ msgstr "FTP-Sicherung"
+
+#~ msgid "Custom backup"
+#~ msgstr "Individuelle Sicherung"
+
+#~ msgid "Backup in archive"
+#~ msgstr "Sicherung in ein Archiv"
+
+#~ msgid "Restore backups anywhere"
+#~ msgstr "Sicherungen überallhin wiederherstellen"
+
+#~ msgid ""
+#~ "So check full features list <a target=\"_blank\" href=\"https://supsystic."
+#~ "com/\">here</a>."
+#~ msgstr ""
+#~ "Checke die volle Liste aller Features <a target=\"_blank\" href=\"https://"
+#~ "supsystic.com/\">hier</a>."
+
+#~ msgid "Thank for check info. Start using plugin."
+#~ msgstr "Danke für die Information. Beginne das Plugin zu benutzen"

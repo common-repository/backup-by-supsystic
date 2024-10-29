@@ -1,0 +1,1 @@
+<?php _e('No Templates were found', BUP_LANG_CODE)?>

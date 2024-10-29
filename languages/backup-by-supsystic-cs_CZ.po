@@ -1,0 +1,2138 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Backup by Supsystic 2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-14 12:59+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Mik013 <supsystic.team@gmail.com>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Vybrat"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "n/a"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Přidat zaškrtávací políčko"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Přidat položku"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Přidat přepínač"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Rozměry"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "šířka"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "výška"
+
+#: classes/field.php:323
+msgid "Click to set field \"id\" and \"class\""
+msgstr "Klikněte pro nastavení pole \"id\" a \"třída\""
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Vlastnosti"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Pro tento modul nejsou žádné možnosti konfigurace "
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Použít pro"
+
+#: classes/fieldAdapter.php:95
+msgid "Address"
+msgstr "Adresa"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Cíl"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Země"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Rubriky"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Nemáte žádnou kategorii"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Značky"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Nemáte žádnou značku"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Tax poměr"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Naprostý"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Nevybráno"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "třída"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:139
+msgid "You have no permissions to view this page"
+msgstr "Nemáte oprávnění ke zobrazení této stránky"
+
+#: classes/html.php:166
+msgid "Upload"
+msgstr "Nahrát"
+
+#: classes/installer.php:226
+msgid " Page Content"
+msgstr " Obsah stránky"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Přesunutí souborů do %s selhalo"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s není plugin modul"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Adresář modulu nelze vytvořit. Zkuste nastavit oprávnění"
+
+#: classes/modInstaller.php:104
+msgid "No modules were found in XML file"
+msgstr "V XML souboru nebyly nalezeny žádné moduly "
+
+#: classes/modInstaller.php:108
+msgid "Invalid XML file"
+msgstr "Neplatný XML soubor"
+
+#: classes/modInstaller.php:110
+msgid "No XML file were found"
+msgstr "Nebyl nalezen žádný XML soubor"
+
+#: classes/modInstaller.php:123
+#, fuzzy
+#| msgid "No modules were found in XML file"
+msgid "No modules were found in installation file"
+msgstr "V XML souboru nebyly nalezeny žádné moduly "
+
+#: classes/modInstaller.php:127
+#, fuzzy
+#| msgid "No XML file were found"
+msgid "No installation file were found"
+msgstr "Nebyl nalezen žádný XML soubor"
+
+#: classes/modInstaller.php:146
+#, php-format
+msgid "Install %s failed"
+msgstr "Instalace %s selhala"
+
+#: classes/modInstaller.php:152
+msgid "Error Activate module"
+msgstr "Modul se nepodařilo zapnout"
+
+#: classes/modInstaller.php:181
+msgid "Error Deactivation module"
+msgstr "Modul se nepodařilo vypnout"
+
+#: classes/modInstaller.php:198
+msgid "Error Activating module"
+msgstr "Chyba při aktivaci modulu"
+
+#: classes/model.php:9
+msgid "Before start backup, You must login to "
+msgstr "Před zahájením zálohování, se musíte přihlásit"
+
+#: classes/model.php:77 modules/backup/models/backup.php:905
+#: modules/onedrive/controller.php:135
+msgid "Unexpected error."
+msgstr "Neočekávaná chyba"
+
+#: classes/table.php:263
+msgid "Nothig to update"
+msgstr "Není co aktualizovat"
+
+#: classes/table.php:280
+msgid "Database error. Please contact your developer."
+msgstr "Chyba databáze. Kontaktujte vašeho vývojáře."
+
+#: classes/tables/files.php:7
+msgid "Product ID"
+msgstr "ID produktu"
+
+#: classes/tables/files.php:8
+msgid "File name"
+msgstr "Jméno souboru"
+
+#: classes/tables/files.php:9
+msgid "Real Path To File"
+msgstr "Skutečná cesta k souboru"
+
+#: classes/tables/files.php:10
+msgid "Mime Type"
+msgstr "Mime Type"
+
+#: classes/tables/files.php:11
+msgid "File Size"
+msgstr "Velikost souboru"
+
+#: classes/tables/files.php:12
+msgid "Active Download"
+msgstr "Aktivní stahování"
+
+#: classes/tables/files.php:13
+msgid "Upload Date"
+msgstr "Datum uložení"
+
+#: classes/tables/files.php:14
+msgid "Download Limit"
+msgstr "Limit stahování"
+
+#: classes/tables/files.php:15
+msgid "Period Limit"
+msgstr "Limit opakování"
+
+#: classes/tables/files.php:16
+msgid "Descritpion"
+msgstr "Popis"
+
+#: classes/tables/files.php:17
+msgid "Type ID"
+msgstr "ID typu"
+
+#: classes/tables/htmltype.php:7 classes/tables/log.php:7
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/htmltype.php:8 classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Metoda"
+
+#: classes/tables/htmltype.php:9 classes/tables/modules.php:12
+#: classes/tables/options.php:11
+msgid "Description"
+msgstr "Popis"
+
+#: classes/tables/log.php:8 classes/tables/modules.php:8
+#: classes/tables/options.php:12
+msgid "Type"
+msgstr "Typ"
+
+#: classes/tables/log.php:9
+msgid "Data"
+msgstr "Data"
+
+#: classes/tables/log.php:10
+msgid "Date created"
+msgstr "Datum vytvoření"
+
+#: classes/tables/log.php:11
+msgid "User ID"
+msgstr "ID uživatele"
+
+#: classes/tables/log.php:12
+msgid "Order ID"
+msgstr "Seřadit podle ID"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Popisek"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Aktivní"
+
+#: classes/tables/modules.php:10
+msgid "Params"
+msgstr "Parametry"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Záložka Has"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+msgid "Code"
+msgstr "Kód"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Adresář externího pluginu"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Hodnota"
+
+#: classes/tables/options.php:13
+msgid "Category ID"
+msgstr "ID kategorie"
+
+#: classes/tables/options.php:14
+msgid "Sort Order"
+msgstr "Pořadí řazení"
+
+#: classes/tables/options.php:15
+msgid "Value Type"
+msgstr "Typ hodnoty"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Pole Jméno je povinné."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Pole webová stránka je povinné."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Pole E-mail je povinné."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Pole Předmět  je povinné."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Musíte zvolit platnou rubriku."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Pole Zpráva je povinné."
+
+#: modules/adminmenu/controller.php:28
+#: modules/options/views/tpl/deactivatePage.php:37
+#: modules/pages/views/tpl/deactivatePage.php:37
+msgid "Done"
+msgstr "Hotovo"
+
+#: modules/adminmenu/mod.php:10
+msgid "Settings"
+msgstr "Nastavení"
+
+#: modules/adminmenu/views/adminmenu.php:13 modules/promo_supsystic/mod.php:37
+msgid "Overview"
+msgstr "Přehled"
+
+#: modules/adminmenu/views/adminmenu.php:14 modules/options/views/options.php:7
+msgid "Backup"
+msgstr "Záloha"
+
+#: modules/adminmenu/views/adminmenu.php:15
+msgid "Schedule"
+msgstr "Plán záloh"
+
+#: modules/adminmenu/views/adminmenu.php:16 modules/backup/mod.php:102
+#: modules/backup/views/tpl/backup.index.php:62
+#: modules/backup/views/tpl/backup.index.php:123
+#: modules/backup/views/tpl/backup.index.php:176
+#: modules/backup/views/tpl/backup.index.php:222
+#: modules/backup/views/tpl/backup.index.php:268 modules/log/mod.php:20
+#: modules/storage/views/tpl/storageBlock.php:31
+msgid "Restore"
+msgstr "Obnovit"
+
+#: modules/adminmenu/views/adminmenu.php:17
+msgid "Migration"
+msgstr "Migrace"
+
+#: modules/adminmenu/views/adminmenu.php:18 modules/promo_supsystic/mod.php:43
+msgid "Featured Plugins"
+msgstr ""
+
+#: modules/adminmenu/views/adminmenu.php:23
+msgid "Backup by Supsystic"
+msgstr "Záloha od Supsystic"
+
+#: modules/amazon/controller.php:77
+msgid "Credentials are stored in the database"
+msgstr "Přihlašovací údaje jsou uloženy v databázi"
+
+#: modules/amazon/controller.php:79
+msgid "Invalid or empty credentials"
+msgstr "Neplatné přihlašovací údaje"
+
+#: modules/amazon/controller.php:84
+msgid "Bucket stored in the database"
+msgstr "Bucket uložen v databázi"
+
+#: modules/amazon/controller.php:86
+msgid "Invalid bucket"
+msgstr "Neplatný bucket."
+
+#: modules/amazon/controller.php:105 modules/dropbox/controller.php:117
+#: modules/onedrive/controller.php:76
+msgid "Please, wait..."
+msgstr "Prosím čekejte..."
+
+#: modules/amazon/controller.php:137 modules/backup/controller.php:187
+#: modules/dropbox/controller.php:169 modules/gdrive/controller.php:139
+msgid "Done!"
+msgstr "Hotovo!"
+
+#: modules/amazon/controller.php:140
+msgid "You did not specify credentials or credentials are invalid"
+msgstr "Nezadali jste přihlašovací údaje, anebo jsou neplatné"
+
+#: modules/amazon/controller.php:143
+msgid "Bucket not found"
+msgstr "Bucket nenalezen"
+
+#: modules/amazon/controller.php:173 modules/dropbox/controller.php:207
+#: modules/gdrive/controller.php:176
+msgid "File successfully deleted"
+msgstr "Soubor úspěšně odstraněn"
+
+#: modules/amazon/controller.php:176
+msgid "Not enough input parameters"
+msgstr "Nekompletní vstupní parametry"
+
+#: modules/amazon/controller.php:179
+msgid "File not found on server"
+msgstr "Soubor na serveru nebyl nenalezen"
+
+#: modules/amazon/controller.php:182
+msgid "Failed to delete the selected file"
+msgstr "Odstranění soubor selhalo"
+
+#: modules/amazon/controller.php:207
+msgid "File not found on Amazon S3"
+msgstr "Soubor na Amazon S3 nebyl nenalezen"
+
+#: modules/amazon/controller.php:229
+msgid "All stacks not downloaded!"
+msgstr "Ne všechny časti byly staženy!"
+
+#: modules/amazon/controller.php:233
+msgid "Files not found on Amazon S3!"
+msgstr "Soubory na Amazon S3 nebyly nenalezeny!"
+
+#: modules/amazon/controller.php:249
+msgid "Enter your AWS Access Key,<br/>Secret Key and Bucket name"
+msgstr "Vložte svůj AWS Access Key,<br/>Tajný klíč a jméno Bucket"
+
+#: modules/amazon/controller.php:252
+msgid "Access Key"
+msgstr "Přístupový klíč"
+
+#: modules/amazon/controller.php:259
+msgid "Secret Key"
+msgstr "Tajný klíč"
+
+#: modules/amazon/controller.php:266
+msgid "Bucket"
+msgstr "Bucket"
+
+#: modules/amazon/controller.php:274
+msgid "&nbsp;&nbsp; Save &nbsp;&nbsp;"
+msgstr "&nbsp;&nbsp; Uložit &nbsp;&nbsp;"
+
+#: modules/amazon/mod.php:135
+msgid "Before start backup - please authenticate with Amazon."
+msgstr "Před spuštěním zálohy - se prosím přihlaste na Amazon."
+
+#: modules/amazon/views/tpl/amazon.index.php:4
+#: modules/dropbox/views/tpl/dropbox.index.php:4
+#: modules/gdrive/views/tpl/gdrive.index.php:5
+#: modules/onedrive/views/tpl/onedrive.error.php:13
+#: modules/onedrive/views/tpl/onedrive.index.php:6
+msgid "Logout"
+msgstr "Odhlásit se"
+
+#: modules/backup/controller.php:92
+msgid "Clear temporary directory"
+msgstr "Promazat dočasný adresář"
+
+#: modules/backup/controller.php:132
+#, fuzzy
+#| msgid "Send request to generate backup file stacks"
+msgid "Send request to create backup"
+msgstr "Odeslat požadavek k vytvoření části záložního souboru"
+
+#: modules/backup/controller.php:177
+msgid "Unable to restore from "
+msgstr "Nepodařilo se obnovit z"
+
+#: modules/backup/controller.php:183
+msgid ""
+"Unable to restore backup files. Check folder or files writing permissions. "
+"Try to set 766 permissions to the:"
+msgstr ""
+"Zálohované soubory se nepodařilo obnovit. Zkontrolujte složku, nebo "
+"oprávnění k zápisu. Zkuste nastavit 766 oprávnění pro:"
+
+#: modules/backup/controller.php:232
+msgid "Backup successfully removed"
+msgstr "Záloha úspěšně odstraněna."
+
+#: modules/backup/controller.php:235
+msgid "Unable to delete backup"
+msgstr "Zálohu se nepodařilo odstranit"
+
+#: modules/backup/controller.php:248
+msgid "Successfully!"
+msgstr "Úspěšně!"
+
+#: modules/backup/controller.php:261
+msgid "Setting saved!"
+msgstr "Nastavení uloženo!"
+
+#: modules/backup/controller.php:263
+msgid "Database error, please try again"
+msgstr "Chyba databáze, zkuste to znovu, prosím"
+
+#: modules/backup/controller.php:288
+msgid ""
+"There are no zlib extension on your server. This mean that you can make only "
+"database backup.<br/>Check this link <a target=\"_blank\" href=\"http://php."
+"net/manual/en/zlib.installation.php\">http://php.net/manual/en/zlib."
+"installation.php</a> or contact your hosting provider and ask them to "
+"resolve this issue for you."
+msgstr ""
+"Na vašem serveru není zlib rozšíření. To znamená, že lze provést pouze "
+"zálohu databáze.<br/>Zkontrolujte tento odkaz <a target=\"_blank\" href="
+"\"http://php.net/manual/en/zlib.installation.php\">http://php.net/manual/en/"
+"zlib.installation.php</a> nebo požádejte vašeho poskytovatele hostingu aby "
+"vám tento problém pomohl vyřešit."
+
+#: modules/backup/controller.php:296
+msgid ""
+"There are no ZipArchive library on your server. This mean that you can make "
+"only database backup.<br/>Check this link <a target=\"_blank\" href=\"http://"
+"php.net/manual/en/book.zip.php\">http://php.net/manual/en/book.zip.php</a> "
+"or contact your hosting provider and ask them to resolve this issue for you."
+msgstr ""
+"Na vašem serveru není knihovna ZipArchive. To znamená, že lze provést pouze "
+"zálohu databáze. Zkontrolujte tento odkaz <br/>Check this link <a target="
+"\"_blank\" href=\"http://php.net/manual/en/book.zip.php\">http://php.net/"
+"manual/en/book.zip.php</a> nebo požádejte vašeho poskytovatele hostingu aby "
+"vám tento problém pomohl vyřešit."
+
+#: modules/backup/controller.php:383
+msgid "Backup complete!"
+msgstr "Záloha je kompletní!"
+
+#: modules/backup/mod.php:189
+msgid "Local Backup"
+msgstr "Místní záloha"
+
+#: modules/backup/models/backup.php:103
+msgid "Scanning files."
+msgstr "Skenování souborů"
+
+#: modules/backup/models/backup.php:106
+msgid "Total stacks: "
+msgstr "Celkem částí:"
+
+#: modules/backup/models/backup.php:118
+msgid "Creating filesystem backup 0%"
+msgstr "Vytváření zálohy souborového systému 0%"
+
+#: modules/backup/models/backup.php:149 modules/backup/models/backup.php:159
+msgid "Filesystem backup complete"
+msgstr "Záloha souborového systému je kompletní"
+
+#: modules/backup/models/backup.php:172
+#, fuzzy
+#| msgid "Creating filesystem backup 0%"
+msgid "Creating database backup 0%"
+msgstr "Vytváření zálohy souborového systému 0%"
+
+#: modules/backup/models/backup.php:208
+#, fuzzy
+#| msgid "Database backup complete."
+msgid "Database backup complete"
+msgstr "Záloha databáze je kompletní."
+
+#: modules/backup/models/backup.php:289
+msgid "Authentication required."
+msgstr "Vyžadováno ověření."
+
+#: modules/backup/models/backup.php:292 modules/dropbox/models/dropbox.php:274
+msgid "File not found"
+msgstr "Soubor nenalezen"
+
+#: modules/backup/models/backup.php:295
+msgid "Unexpected error (500)"
+msgstr "Neočekávaná chyba (500)"
+
+#: modules/backup/models/backup.php:298
+msgid "Unexpected error"
+msgstr "Neočekávaná chyba"
+
+#: modules/backup/models/backup.php:347
+msgid "Backup successful complete!"
+msgstr "Záloha byla úspěšně dokončena!"
+
+#: modules/backup/models/backup.php:351
+msgid "Backup by Supsystic Notifications"
+msgstr "Záloha od Supsystic Upozornění"
+
+#: modules/backup/models/backup.php:353
+msgid "Email notification required."
+msgstr "Vyžadováno upozornění e-mailem."
+
+#: modules/backup/models/backup.php:354
+msgid "Sending to "
+msgstr "Odesílání na"
+
+#: modules/backup/models/backup.php:934
+msgid "Undefined"
+msgstr "Nedefinováno"
+
+#: modules/backup/models/backupLog.php:66
+#: modules/backup/models/backupLogTxt.php:86
+msgid ""
+"Please, don't delete the line that is lower, it is used for technical "
+"purposes!"
+msgstr "Prosím nemažte řádek, který je níže, slouží technickým účelům!"
+
+#: modules/backup/models/backupLog.php:94
+#: modules/backup/models/backupLogTxt.php:37
+msgid "Backup settings: "
+msgstr "Nastavení zálohování:"
+
+#: modules/backup/models/backupLog.php:97
+#: modules/backup/models/backupLogTxt.php:40
+#: modules/options/views/tpl/backupOptions.php:50
+#: modules/options/views/tpl/backupOptions.php:53
+msgid "Full backup"
+msgstr "Kompletní záloha"
+
+#: modules/backup/models/backupLog.php:100
+#: modules/backup/models/backupLogTxt.php:43
+#: modules/options/views/tpl/backupOptions.php:61
+msgid "Wordpress Core"
+msgstr "Jádro Wordpress"
+
+#: modules/backup/models/backupLog.php:103
+#: modules/backup/models/backupLogTxt.php:46
+#: modules/options/views/tpl/backupOptions.php:72
+#: modules/options/views/tpl/backupOptions.php:75
+msgid "Plugins folder"
+msgstr "Složku s pluginy"
+
+#: modules/backup/models/backupLog.php:106
+#: modules/backup/models/backupLogTxt.php:49
+#: modules/options/views/tpl/backupOptions.php:83
+#: modules/options/views/tpl/backupOptions.php:86
+msgid "Themes folder"
+msgstr "Složku se šablonami"
+
+#: modules/backup/models/backupLog.php:109
+#: modules/backup/models/backupLogTxt.php:52
+#: modules/options/views/tpl/backupOptions.php:94
+#: modules/options/views/tpl/backupOptions.php:97
+msgid "Uploads folder"
+msgstr "Složku UPLOADS"
+
+#: modules/backup/models/backupLog.php:112
+#: modules/backup/models/backupLogTxt.php:55
+#: modules/options/views/tpl/backupOptions.php:105
+#: modules/options/views/tpl/backupOptions.php:108
+msgid "Any folder inside wp-content"
+msgstr "Jakoukoli složku uvnitř wp-content"
+
+#: modules/backup/models/backupLog.php:118
+#: modules/backup/models/backupLogTxt.php:61
+msgid "Exclude: "
+msgstr "Výjimky:"
+
+#: modules/backup/models/backupLog.php:121
+#: modules/backup/models/backupLogTxt.php:64
+msgid "Email notification: "
+msgstr "E-mailové upozornění:"
+
+#: modules/backup/models/database.php:196
+msgid "Secret key for decrypt DB data wrong! Please, try again."
+msgstr ""
+"Tajný klíč pro dešifrování dat v DB je nesprávný! Zkuste to znovu, prosím."
+
+#: modules/backup/models/database.php:214
+#: modules/backup/models/database.php:418
+msgid ""
+"Your MySQL server does not support transactions, \"safe update\" unavailable"
+msgstr "Váš MySQL server nepodporuje transakce, \"safe update\" je nedostupný"
+
+#: modules/backup/models/database.php:309
+msgid "Error: unexpected fgets() fail"
+msgstr "Chyba: neočekávané fgets() selhalo"
+
+#: modules/backup/models/database.php:314
+msgid "Unable to clear the database before restoring"
+msgstr "Databázi se před obnovou nepodařilo pročistit"
+
+#: modules/backup/models/database.php:343
+msgid "Can not find file "
+msgstr "Nepodařilo se nalézt soubor"
+
+#: modules/backup/models/database.php:366
+msgid ""
+"Revision of backup and your database do not match. You must enable the Force "
+"Update options to update (at one's own risk)"
+msgstr ""
+"Revize verze zálohy a vaší databáze nesouhlasí. Je nutné povolit možnosti "
+"Force Update pro aktualizaci (na vlastní riziko)"
+
+#: modules/backup/models/database.php:375
+msgid ""
+"This backup was made on another version of WordPress. You must enable the "
+"Force Update options to update (at one's own risk)"
+msgstr ""
+"Tato záloha byla provedena na jiné verzi WordPress. Je nutné povolit "
+"možnosti Force Update pro aktualizaci (na vlastní riziko)"
+
+#: modules/backup/models/database.php:384
+msgid ""
+"Backup was created with a different version of the plugin. You must enable "
+"the Force Update options to update (at one's own risk)"
+msgstr ""
+"Záloha byla provedena jinou verzí pluginu. Je nutné povolit možnosti Force "
+"Update pro aktualizaci (na vlastní riziko)"
+
+#: modules/backup/models/filesystem.php:33
+#, php-format
+msgid "Filesystem backup %s does not exists"
+msgstr "Záloha souborového systému %s neexistuje"
+
+#: modules/backup/models/filesystem.php:66
+msgid "An error has occurred while unpacking the archive"
+msgstr "Při rozbalování archivu došlo k nějaké chybě"
+
+#: modules/backup/views/tpl/backup.index.php:10
+msgid " / Start:"
+msgstr " / Začátek:"
+
+#: modules/backup/views/tpl/backup.index.php:11
+msgid " / Finish:"
+msgstr " / Konec:"
+
+#: modules/backup/views/tpl/backup.index.php:21
+msgid "Backup to <b>FTP</b> / ID"
+msgstr "Záloha na <b>FTP</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:57
+#: modules/backup/views/tpl/backup.index.php:114
+#: modules/backup/views/tpl/backup.index.php:168
+#: modules/backup/views/tpl/backup.index.php:218
+#: modules/backup/views/tpl/backup.index.php:260
+msgid "Filesystem"
+msgstr "Souborový systém"
+
+#: modules/backup/views/tpl/backup.index.php:57
+#: modules/backup/views/tpl/backup.index.php:114
+#: modules/backup/views/tpl/backup.index.php:168
+#: modules/backup/views/tpl/backup.index.php:218
+#: modules/backup/views/tpl/backup.index.php:260
+msgid "Database"
+msgstr "Databáze"
+
+#: modules/backup/views/tpl/backup.index.php:68
+#: modules/backup/views/tpl/backup.index.php:131
+#: modules/backup/views/tpl/backup.index.php:182
+#: modules/backup/views/tpl/backup.index.php:225
+#: modules/backup/views/tpl/backup.index.php:276
+msgid "Delete"
+msgstr "Smazat"
+
+#: modules/backup/views/tpl/backup.index.php:75
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:35
+msgid "Download"
+msgstr "Stáhnout"
+
+#: modules/backup/views/tpl/backup.index.php:86
+#: modules/backup/views/tpl/backup.index.php:141
+#: modules/backup/views/tpl/backup.index.php:192
+#: modules/backup/views/tpl/backup.index.php:234
+#: modules/backup/views/tpl/backup.index.php:285
+msgid "Show Backup Log"
+msgstr "Zobrazit log zálohování"
+
+#: modules/backup/views/tpl/backup.index.php:88
+#: modules/backup/views/tpl/backup.index.php:143
+#: modules/backup/views/tpl/backup.index.php:194
+#: modules/backup/views/tpl/backup.index.php:236
+#: modules/backup/views/tpl/backup.index.php:287
+msgid "Log is clear."
+msgstr "Log je prádný"
+
+#: modules/backup/views/tpl/backup.index.php:104
+msgid "Backup to <b>GoogleDrive</b> / ID"
+msgstr "Záloha na <b>Google Disk</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:158
+msgid "Backup to <b>OneDrive</b> / ID"
+msgstr "Záloha na <b>OneDrive</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:209
+msgid "Backup to <b>Amazon S3</b> / ID"
+msgstr "Záloha na <b>Amazon S3</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:251
+msgid "Backup to <b>DropBox</b> / ID"
+msgstr "Záloha na <b>DropBox</b> / ID"
+
+#: modules/backup/views/tpl/backup.index.php:303
+msgid "Backups don't exist!"
+msgstr "Záloha neexistuje!"
+
+#: modules/backup/views/tpl/backup.index.php:313
+msgid "Restore Presets:"
+msgstr "Nastavení obnovy:"
+
+#: modules/backup/views/tpl/backup.index.php:316
+msgid "Safe Update"
+msgstr "Bezpečná aktualizace"
+
+#: modules/backup/views/tpl/backup.index.php:318
+msgid ""
+"If the ckeckbox is set up, the database backup will be performed. This will "
+"let the database backup work in the transaction mode, i.e. should there "
+"occur any failure during the data base recovery, no data from the data-base "
+"backup will be transferred to the data-base. The data-base backup recovery "
+"will occur if and only there were no failures during the process. If the "
+"ckeckbox is not set up the data-base backup will be performed without "
+"transaction mode."
+msgstr ""
+"Je-li zaškrtávací políčko zaškrtnuto, bude provedena záloha databáze v "
+"režimu transakce, tj. V průběhu obnovy databáze by nemělo dojít k žádným "
+"chybám, a pokud ano, žádné údaje ze zálohy, nebudou obnoveny do databáze. "
+"Není-li zaškrtávací políčko zaškrtnuto záloha databáze bude provedena bez "
+"režimu transakce."
+
+#: modules/backup/views/tpl/backup.index.php:328
+msgid "Force Update"
+msgstr "Vynutit aktualizaci"
+
+#: modules/backup/views/tpl/backup.index.php:330
+msgid ""
+"When backup is performed, the labels are usually put at the beginning of the "
+"file dump, such as: WordPress version for the backup; WordPress data-base "
+"version for the backup; the plugin version for the backup. At recovering, if "
+"the force has been off, the backup will not be performed, because it will "
+"constantly pop up with the message, that the version is incorrect (the "
+"version of WordPress, the version of WordPress data-base or the plugin "
+"version). If the force has been on, there will be no such system check and "
+"the recovery will be performed."
+msgstr ""
+"Při provádění zálohy, jsou obvykle na začátku výpisu souborů uvedeny značky, "
+"jako např: zálohovaná verze WordPress; verze zálohované databáze WordPress; "
+"verze zálohovaného pluginu. Pokud vynucení nebude zapnuté, nebude provedena "
+"obnova zálohy, protože bude neustále vyskakovat upozornění se zprávou, že "
+"verze nesouhlasí (verze WordPress, verze WordPress database nebo verze "
+"pluginů) , V případě, že vynucení bude zapnuté kontrola neproběhne a obnova "
+"bude provedena."
+
+#: modules/backup/views/tpl/backup.index.php:342
+msgid "Backup Log:"
+msgstr "Log zálohování:"
+
+#: modules/backup/views/tpl/backup.index.php:348
+msgid "Get PRO Verion!"
+msgstr "Získejte PRO verzi!"
+
+#: modules/backup/views/tpl/backup.index.php:350
+msgid ""
+"Please, be advised, that this option is available only in PRO version. You "
+"can"
+msgstr ""
+"Prosím, vezměte na vědomí, že tato možnost je dostupná pouze v PRO verzi. "
+"Můžete"
+
+#: modules/backup/views/tpl/backup.index.php:351
+#: modules/promo_supsystic/mod.php:12
+#: modules/promo_supsystic/views/tpl/migrationPromo.php:9
+#: modules/promo_supsystic/views/tpl/schedulePromo.php:7
+msgid "Get PRO"
+msgstr "Získat PRO"
+
+#: modules/dropbox/controller.php:130
+msgid "Your server not meet the requirements Dropbox SDK"
+msgstr "Váš server nesplňuje požadavky Dropbox SDK"
+
+#: modules/dropbox/controller.php:172 modules/dropbox/models/dropbox.php:252
+#: modules/dropbox/models/dropbox52.php:359
+#: modules/dropbox/models/dropbox52.php:396 modules/gdrive/controller.php:142
+#: modules/gdrive/controller.php:179 modules/gdrive/controller.php:197
+msgid "Authentication required"
+msgstr "Vyžadováno ověření"
+
+#: modules/dropbox/controller.php:175 modules/gdrive/controller.php:149
+msgid "Nothing to upload"
+msgstr "Není co nahrávat"
+
+#: modules/dropbox/controller.php:203 modules/gdrive/controller.php:172
+msgid "Nothing to delete"
+msgstr "Není co mazat"
+
+#: modules/dropbox/controller.php:227
+msgid "There was an error during recovery"
+msgstr "Během obnovy došlo k chybě"
+
+#: modules/dropbox/controller.php:256
+msgid "All files not downloaded from DropBox, please, try again"
+msgstr ""
+"Nepodařilo se stáhnout všechny soubory z DropBoxu, zkuste to znovu prosím"
+
+#: modules/dropbox/controller.php:259 modules/onedrive/controller.php:174
+msgid "Files not found on OneDrive"
+msgstr "Soubory na OneDrive nebyly nenalezeny!"
+
+#: modules/dropbox/mod.php:132
+msgid "Your server does not support the Dropbox without cURL extension"
+msgstr "Váš server nepodporuje Dropbox bez cURL rozšíření"
+
+#: modules/dropbox/mod.php:156
+msgid "Before start backup - please authenticate with DropBox."
+msgstr "Před spuštěním zálohy - se prosím přihlaste na DropBox."
+
+#: modules/dropbox/views/tpl/dropbox.auth.php:8
+#: modules/gdrive/views/tpl/gdrive.auth.php:15
+#: modules/onedrive/views/tpl/onedrive.auth.php:3
+msgid "Authenticate"
+msgstr "Ověření"
+
+#: modules/gdrive/controller.php:21
+msgid "Your server do not have curl extension installed."
+msgstr "Váš server nemá instalováno rozšíření curl."
+
+#: modules/gdrive/controller.php:22
+msgid "This extension is required by Google API SDK."
+msgstr "Toto rozšíření je vyžadováno Google API SDK."
+
+#: modules/gdrive/controller.php:23
+msgid "Please install it at first."
+msgstr "Prosím, instalujte jej jako první."
+
+#: modules/gdrive/controller.php:24
+msgid "You can also check following links for more info:"
+msgstr "Pro více informací můžete zkontrolovat také následující odkazy:"
+
+#: modules/gdrive/controller.php:40
+msgid ""
+"For long-term storage of Google Drive authorization, please re-connect our "
+"application in your personal account of Google Drive."
+msgstr ""
+"Pro oprávnění k dlouhodobé skladování na Disku Google, prosím, znovu "
+"připojte naši aplikaci ve svém osobním účtu Google Drive."
+
+#: modules/gdrive/controller.php:55
+msgid "Your server is not support Google API Client Library."
+msgstr "Váš server nepodporuje Google API Client Library."
+
+#: modules/gdrive/controller.php:57
+msgid "PHP JSON extension required"
+msgstr "Je vyžadováno rozšíření PHP JSON"
+
+#: modules/gdrive/controller.php:99
+msgid "Please wait..."
+msgstr "Čekejte prosím..."
+
+#: modules/gdrive/controller.php:225
+msgid "Files not found on Google Drive"
+msgstr "Soubory na Google Disku nebyly nenalezeny!"
+
+#: modules/gdrive/controller.php:232
+msgid "File not found on Google Drive"
+msgstr "Soubor na Google Disku nebyl nenalezen"
+
+#: modules/gdrive/controller.php:234
+msgid "Failed to download file"
+msgstr "Stažení souboru se nepodařilo."
+
+#: modules/gdrive/mod.php:125
+msgid "Before start backup - please authenticate with Google Drive."
+msgstr "Před spuštěním zálohy - se prosím přihlaste na Google Disk."
+
+#: modules/gdrive/models/gdrive.php:341
+msgid "Unable to get parent folder ID."
+msgstr "Nepodařilo se získat ID nadřazeného adresáře."
+
+#: modules/log/models/log.php:27
+msgid "Settings not found!"
+msgstr "Nastavení nenalezeno!"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr ""
+
+#: modules/onedrive/controller.php:104
+msgid "Deleted successfully"
+msgstr "Úspěšně smazáno"
+
+#: modules/onedrive/controller.php:122 modules/onedrive/models/onedrive.php:429
+msgid "Authorization required."
+msgstr "Je vyžadováno přihlášení."
+
+#: modules/onedrive/controller.php:127
+msgid "Uploaded successfully."
+msgstr "Úspěšně nahráno."
+
+#: modules/onedrive/controller.php:153
+msgid "File downloaded."
+msgstr "Soubor stažen."
+
+#: modules/onedrive/mod.php:89
+msgid "Before start backup - please authenticate with OneDrive."
+msgstr "Před spuštěním zálohy - se prosím přihlaste na OneDrive."
+
+#: modules/onedrive/models/onedrive.php:438
+msgid "Enexpected error."
+msgstr "Neočekávaná chyba."
+
+#: modules/onedrive/models/onedrive.php:453
+msgid "Failed to save downloaded file."
+msgstr "Uložení stažeého souboru se nepodařilo."
+
+#: modules/onedrive/views/tpl/onedrive.authError.php:4
+msgid "Authentication failed."
+msgstr "Ověření selhalo."
+
+#: modules/onedrive/views/tpl/onedrive.error.php:4
+msgid "An error has been occured."
+msgstr "Došlo k nějaké chybě."
+
+#: modules/options/controller.php:10 modules/options/controller.php:21
+msgid "Save Complete"
+msgstr "Uložení je kompletní"
+
+#: modules/options/mod.php:20
+msgid "General"
+msgstr "Obecné"
+
+#: modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Modul aktualizován"
+
+#: modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Aktualizace modulu selhala"
+
+#: modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "Chyba modulu ID"
+
+#: modules/options/models/options.php:27
+msgid "Incorrect email address"
+msgstr "Neplatná e-mailová adresa"
+
+#: modules/options/models/options.php:39
+msgid "No change"
+msgstr "Žádná změna"
+
+#: modules/options/models/options.php:57
+msgid "PRO version is not activated"
+msgstr "Není aktivována PRO verze"
+
+#: modules/options/models/options.php:61
+msgid "No selected options"
+msgstr "Nebyla vybrána žádná možnost"
+
+#: modules/options/models/options.php:246
+msgid "Option "
+msgstr "Možnost"
+
+#: modules/options/models/options.php:248
+msgid "Invalid option ID or Code"
+msgstr "Neplatná možnost ID nebo kódu"
+
+#: modules/options/models/options.php:251
+msgid "Empty data to save option"
+msgstr "Prázdné údaje pro uložení možnosti"
+
+#: modules/options/models/options.php:291
+#: modules/options/models/options.php:307
+msgid "Empty data to setup"
+msgstr "Prázdné údaje pro nastavení"
+
+#: modules/options/models/options.php:321
+#: modules/options/models/options.php:323
+#: modules/options/models/options.php:344
+#: modules/options/models/options.php:346
+#: modules/options/models/options.php:376
+#: modules/options/models/options.php:378
+msgid "There is no default for this option and current template"
+msgstr "V aktuální šabloně není pro tuto možnost žádná výchozí hodnota"
+
+#: modules/options/models/options.php:325
+#: modules/options/models/options.php:348
+#: modules/options/models/options.php:380
+msgid "Empty option code"
+msgstr "Prázdný kód možnosti"
+
+#: modules/options/models/options.php:358
+#: modules/options/models/options.php:390
+msgid "Unable to remove image"
+msgstr "Obrázek se nepodařilo odstranit"
+
+#: modules/options/views/tpl/backupOptions.php:7
+msgid "Where to backup"
+msgstr "Kam zálohovat"
+
+#: modules/options/views/tpl/backupOptions.php:44
+msgid "What to backup"
+msgstr "Co zálohovat"
+
+#: modules/options/views/tpl/backupOptions.php:64
+msgid ""
+"All folders and files backup in the root directory, where the WordPress is "
+"installed, except the /wp-content folder."
+msgstr ""
+"Všechny adresáře a soubory backup v kořenovém adresáři, kde je WordPress "
+"nainstalován, s výjimkou složky /wp-content ."
+
+#: modules/options/views/tpl/backupOptions.php:116
+#: modules/options/views/tpl/backupOptions.php:119
+msgid "Database backup"
+msgstr "Záloha databáze"
+
+#: modules/options/views/tpl/backupOptions.php:127
+msgid "Secret key for DB"
+msgstr "Tajný klíč pro DB"
+
+#: modules/options/views/tpl/backupOptions.php:130
+msgid "Secret key for encrypting DB data"
+msgstr "Tajný klíč pro šifrování dat v DB"
+
+#: modules/options/views/tpl/backupOptions.php:146
+msgid "Additional Settings"
+msgstr "Další nastavení"
+
+#: modules/options/views/tpl/backupOptions.php:159
+msgid ""
+"The maximum size of a single file which will be added to the stack. If the "
+"plugin can not create backup of the file system (for example it hangs) - try "
+"to reduce the size. It is not recommended to put a value less than 10MB, "
+"because in this case, the backup will not include high-resolution images. If "
+"you want to put all the files in the backup - set value to 0"
+msgstr ""
+"Maximální velikost jednoho souboru, který se bude přidávat do balíku. V "
+"případě, že plugin nemůže vytvořit zálohu systému souborů (například se "
+"zasekne) - pokuste se zmenšit velikost. Nedoporučujeme, aby hodnota byla "
+"menší než 10 MB, protože v takovém případě záloha nebude obsahovat obrázky "
+"ve vysokém rozlišením. Chcete-li do zálohy zahrnout všechny soubory  - "
+"nastavte hodnotu na 0"
+
+#: modules/options/views/tpl/backupOptions.php:159
+msgid "Max size of file in stack(MB):"
+msgstr "Maximální velikost souboru v balíku(MB):"
+
+#: modules/options/views/tpl/backupOptions.php:166
+msgid "Specify and enter files and folders names which must not be backed up."
+msgstr ""
+"Specifikujte a zadejte jména souborů a složek, které nemají být zálohovány."
+
+#: modules/options/views/tpl/backupOptions.php:166
+msgid "Exclude:"
+msgstr "Výjimky:"
+
+#: modules/options/views/tpl/backupOptions.php:168
+msgid ""
+" If entering multiple files/directories, then separate them with commas."
+msgstr " Uvádíte-li více souborů / adresářů, oddělte je čárkami."
+
+#: modules/options/views/tpl/backupOptions.php:173
+msgid "Email notification"
+msgstr "E-mailové upozornění"
+
+#: modules/options/views/tpl/backupOptions.php:173
+msgid "Email notification:"
+msgstr "E-mailové upozornění:"
+
+#: modules/options/views/tpl/backupOptions.php:180
+msgid "Email address is wrong, please check it: "
+msgstr "E-mailová adresa je neplatná, prosím zkontrolujte ji:"
+
+#: modules/options/views/tpl/backupOptions.php:188
+msgid ""
+"Specify the path where the data is to be backed up. It 'Use relative path' "
+"ckeckbox has been set up, the path will be set against in the root "
+"directory, where the WordPress is installed. If 'Use relative path' checkbox "
+"has been of, the full path to the disk root should be specified."
+msgstr ""
+"Uveďte cestu, kam se mají data zálohovat. Pokud je zaškrtávací pole \"Použít "
+"relativní cestu\" použito, cesta bude nastavena ke kořenovému adresáři, kde "
+"je WordPress nainstalován. Pokud je zaškrtávací pole \"Použít relativní cestu"
+"\" nezaškrtnuté měla být uvedena úplná cesta."
+
+#: modules/options/views/tpl/backupOptions.php:189
+msgid "Warehouse:"
+msgstr "Skladiště:"
+
+#: modules/options/views/tpl/backupOptions.php:208
+msgid ""
+"If the checkbox has been set up, then the backup path must be specified in "
+"the Warehouse field against the root directory, where the WordPress is "
+"installed. if the checkbox has been off, then the backup path must be "
+"specified in the Warehouse field against the disk root.\""
+msgstr ""
+"Je-li toto zaškrtávací políčko zaškrtnuto, pak záložní cesta musí být ve "
+"skladišti, oproti kořenovému adresáři, kde je WordPress nainstalován. Pokud "
+"je zaškrtávací políčko zaškrtnuto nebylo, pak záložní cesta musí být zadána "
+"v poli skladiště až ke kořeni disku.\""
+
+#: modules/options/views/tpl/backupOptions.php:209
+msgid "Use relative path"
+msgstr "Použít relativní cestu"
+
+#: modules/options/views/tpl/backupOptions.php:226
+msgid "Path to directory, where will be stored backup files."
+msgstr "Cesta k adresáři, kde budu uloženy záložní soubory."
+
+#: modules/options/views/tpl/deactivatePage.php:33
+#: modules/pages/views/tpl/deactivatePage.php:33
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr "Smazat data pluginu (volby, data nastavení, databázové tabulky, atd)"
+
+#: modules/options/views/tpl/mainOptionsTab.php:9
+msgid ""
+"To restore website backup, be sure that all files and folders in the core "
+"directory have writing permissions. Backup restoration can rewrite some of "
+"them."
+msgstr ""
+"Chcete-li obnovit zálohu webové stránky, ujistěte se, že všechny soubory a "
+"složky v kořenovém adresáři mají oprávnění zápisu. Obnova zálohy může "
+"přepsat některé z nich."
+
+#: modules/options/views/tpl/mainOptionsTab.php:29
+msgid "Where to Backup:"
+msgstr "Kam zálohovat:"
+
+#: modules/options/views/tpl/mainOptionsTab.php:31
+msgid "Available space:"
+msgstr "Dostupné místo:"
+
+#: modules/options/views/tpl/mainOptionsTab.php:39
+msgid "An errors has been occured while initialize warehouse module."
+msgstr "Při inicializaci skladového modulu došlo k chybě."
+
+#: modules/options/views/tpl/mainOptionsTab.php:49
+msgid "Show Log"
+msgstr "Zobrazit log"
+
+#: modules/options/views/tpl/mainOptionsTab.php:54
+msgid "Backup already in process."
+msgstr "Záloha probíhá."
+
+#: modules/pages/views/tpl/pagesTab.php:14
+msgid "Pages Options"
+msgstr "Možnosti stránek"
+
+#: modules/pages/views/tpl/pagesTab.php:17
+msgid "Recreate Pages"
+msgstr "Znovu-vytvořit stránky"
+
+#: modules/pages/views/tpl/pagesTab.php:18
+msgid ""
+"If you accidently deleted one of plugin page - Login, or Checkout, or "
+"Shopping cart for example, just click on this button - and pages, that you "
+"deleted, will be created again. Do not use it without emergency."
+msgstr ""
+"Pokud jste omylem vymazali nějakou stránku pluginu - například login, nebo "
+"Checkout, nebo nákupní vozík, stačí kliknout na toto tlačítko - a stránky, "
+"které jste odstranili, bude obnoveny. Používejte pouze v případě nutnosti."
+
+#: modules/promo_supsystic/controller.php:6
+msgid "Information was saved. Thank you!"
+msgstr "Informace byly uloženy. Děkujeme!"
+
+#: modules/promo_supsystic/controller.php:63
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+
+#: modules/promo_supsystic/controller.php:79
+#, php-format
+msgid "Please select %s"
+msgstr ""
+
+#: modules/promo_supsystic/controller.php:79
+#, fuzzy, php-format
+#| msgid "Please enter your License Key"
+msgid "Please enter %s"
+msgstr "Vyplňte své licenční číslo"
+
+#: modules/promo_supsystic/controller.php:85
+#, fuzzy
+#| msgid "Please enter your Email address"
+msgid "Please enter valid email address"
+msgstr "Vyplňte svou e-mailovou adresu"
+
+#: modules/promo_supsystic/mod.php:12
+msgid ""
+"Please, be advised, that this option is available only in PRO version. You "
+"can "
+msgstr ""
+"Prosím, vezměte na vědomí, že tato možnost je dostupná pouze v PRO verzi. "
+"Můžete"
+
+#: modules/promo_supsystic/mod.php:71
+msgid "Name"
+msgstr "Jméno"
+
+#: modules/promo_supsystic/mod.php:72
+msgid "Email"
+msgstr "E-mail"
+
+#: modules/promo_supsystic/mod.php:73
+msgid "Website"
+msgstr "Web"
+
+#: modules/promo_supsystic/mod.php:74
+msgid "Subject"
+msgstr "Předmět"
+
+#: modules/promo_supsystic/mod.php:75
+msgid "Topic"
+msgstr "Téma"
+
+#: modules/promo_supsystic/mod.php:76
+msgid "Plugin options"
+msgstr "Možnosti pluginu"
+
+#: modules/promo_supsystic/mod.php:77
+msgid "Report a bug"
+msgstr "Nahlásit chybu"
+
+#: modules/promo_supsystic/mod.php:78
+msgid "Require a new functionallity"
+msgstr "Požadavek nové funkcionality"
+
+#: modules/promo_supsystic/mod.php:79
+msgid "Other"
+msgstr "Jiné"
+
+#: modules/promo_supsystic/mod.php:81
+msgid "Message"
+msgstr "Zpráva"
+
+#: modules/promo_supsystic/mod.php:81
+msgid "Hello Supsystic Team!"
+msgstr "ahOOj Supsystic Týme! (zpráva v anglickém jazyce)"
+
+#: modules/promo_supsystic/mod.php:94
+msgid "Schedule <p class=\"bupAIP\">Available In PRO</p>"
+msgstr "Plán záloh <p class=\"bupAIP\">je dostupný v PRO</p>"
+
+#: modules/promo_supsystic/mod.php:100
+msgid "Migration <p class=\"bupAIP\">Available In PRO</p>"
+msgstr "Migrace je <p class=\"bupAIP\">dostupná v PRO</p>"
+
+#: modules/promo_supsystic/mod.php:110
+msgid "Remote FTP Server"
+msgstr "Vzdálený FTP Server"
+
+#: modules/promo_supsystic/mod.php:111
+msgid "Remote SFTP(SCP) Server"
+msgstr "Vzdálený SFTP(SCP) Server"
+
+#: modules/promo_supsystic/mod.php:112
+msgid "Remote FTPS Server"
+msgstr "Vzdálený FTPS Server"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:23
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Jak získat PRO verzi pluginu ZDARMA?"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:23
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target=\"_blank\" href=\"%s\">\"Get "
+"PRO version of any plugin for FREE\"</a>"
+msgstr ""
+"Máte neuvěřitelnou možnost získat verzi PRO zdarma. Vytvořte překlad "
+"pluginu! Bude báječné, pokud tuto nabídku využijete! Více informací "
+"naleznete zde <a target=\"_blank\" href=\"%s\">\"Získejte verzi PRO "
+"jakéhokoli pluginu ZDARMA\"</a>"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:24
+msgid "Translation"
+msgstr "Překlad"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:24
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English</b><br />Translate or update a "
+"translation Backup WordPress plugin in your language and get a Premium "
+"license for FREE. <a target=\"_blank\" href=\"%s\">Contact us</a>."
+msgstr ""
+"Pro Supsystic Google Maps plugin jsou dostupné všechny jazyky. Pokud váš "
+"jazyk není k dispozici, bude váš plugin ve výchozím nastavení v angličtině."
+"<br /><b>dostupné překlady: English</b><br />Přeložte nebo aktualizujte "
+"překlad Backup WordPress pluginu do ve vašeho jazyky a získejte Premium "
+"licenci ZDARMA. <a target=\"_blank\" href=\"%s\">Kontaktujte nás</a>."
+
+#: modules/promo_supsystic/views/promo_supsystic.php:41
+#, php-format
+msgid ""
+"There were some problem while trying to retrive our news, but you can always "
+"check all list <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr ""
+"Při pokusu získat naše novinky došlo k nějakému problému, vždy ale můžete "
+"zkontrolovat seznam všech <a target=\"_blank\" href=\"%s\">zde</a>."
+
+#: modules/promo_supsystic/views/promo_supsystic.php:52
+#: modules/promo_supsystic/views/promo_supsystic.php:57
+#: modules/promo_supsystic/views/promo_supsystic.php:59
+#: modules/promo_supsystic/views/promo_supsystic.php:60
+msgid "Yes"
+msgstr "Ano"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:52
+#: modules/promo_supsystic/views/promo_supsystic.php:57
+#: modules/promo_supsystic/views/promo_supsystic.php:59
+#: modules/promo_supsystic/views/promo_supsystic.php:60
+msgid "No"
+msgstr "Ne"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:93
+msgid "Popup Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:93
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:94
+msgid "Slider Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:94
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select "
+"images from your WordPress Media Library, Flickr, Instagram or Facebook, set "
+"slide captions, links and SEO fields all from one page."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:95
+msgid "Photo Gallery Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:95
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:96
+msgid "Data Tables Generator"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:96
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML "
+"knowledge is required."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:97
+msgid "Social Share Buttons"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:97
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:98
+msgid "Live Chat Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:98
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by "
+"Supsystic. Help you visitors, support them in real-time with exceptional "
+"Live Chat WordPress plugin by Supsystic."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:99
+msgid "Pricing Table"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:99
+msgid ""
+"It’s never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:100
+msgid "Coming Soon Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:100
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:101
+#, fuzzy
+#| msgid "Backup Log:"
+msgid "Backup Plugin"
+msgstr "Log zálohování:"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:101
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and "
+"unhitched DropBox, FTP, Amazon S3, Google Drive backup for your WordPress "
+"website."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:102
+msgid "Google Maps Easy"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:102
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:103
+msgid "Digital Publication Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:103
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:104
+#, fuzzy
+#| msgid "Contact form"
+msgid "Contact Form Plugin"
+msgstr "Kontaktní formulář"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:104
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:105
+msgid "Newsletter Plugin"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:105
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:106
+#, fuzzy
+#| msgid "Backup by Supsystic"
+msgid "Membership by Supsystic"
+msgstr "Záloha od Supsystic"
+
+#: modules/promo_supsystic/views/promo_supsystic.php:106
+msgid ""
+"Create online membership community with custom user profiles, roles, "
+"FrontEnd registration and login. Members Directory, activity, groups, "
+"messages."
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:107
+msgid "Kinsta Hosting"
+msgstr ""
+
+#: modules/promo_supsystic/views/promo_supsystic.php:107
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:31
+msgid ""
+"If you want to host a business site or a blog, Kinsta managed WordPress "
+"hosting is the best place to stop on. Without any hesitation, we can say "
+"Kinsta is incredible when it comes to uptime and speed."
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:4
+msgid "Version"
+msgstr "Verze"
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:9
+msgid "Get"
+msgstr "Získat"
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:9
+msgid "License"
+msgstr "Licenci"
+
+#: modules/promo_supsystic/views/tpl/adminFooter.php:13
+msgid "Support"
+msgstr "Podpora"
+
+#: modules/promo_supsystic/views/tpl/adminSendStatNote.php:9
+msgid "No, don\\'t send"
+msgstr "Ne, neposílat"
+
+#: modules/promo_supsystic/views/tpl/adminSendStatNote.php:26
+msgid "Yes, send statistics"
+msgstr "Ano, odeslat statistiky"
+
+#: modules/promo_supsystic/views/tpl/discountMsg.php:37
+#, php-format
+msgid ""
+"Upgrade to bundle and get an access to <a href=\"%s\" target=\"_blank\">all "
+"14 plugins</a> more than 80%% off!"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/discountMsg.php:38
+msgid "Buy Now"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr ""
+
+#: modules/promo_supsystic/views/tpl/migrationPromo.php:5
+msgid ""
+"On this tab with PRO version of plugin, you can migrate this site to other "
+"hosting."
+msgstr ""
+"Na této záložce můžete s PRO verzí pluginu migrovat tuto webovou stránku na "
+"jiný hosting."
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "Časté dotazy (FAQ) a Dokumentace"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Projít všechny časté dotazy (FAQ)"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:22
+msgid "Video tutorial"
+msgstr "Video návod"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:37
+msgid "Server Settings"
+msgstr "Nastavení serveru"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:50
+msgid "News"
+msgstr "Novinky"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:56
+msgid "All news and info"
+msgstr "Všechny novinky a informace"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:61
+msgid "Contact form"
+msgstr "Kontaktní formulář"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Odeslat e-mail"
+
+#: modules/promo_supsystic/views/tpl/overviewTabContent.php:106
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. "
+"Thank you for support!"
+msgstr ""
+"Váš e-mail byl odeslán, budeme se snažit odpovědět vám co nejdříve. Děkujeme "
+"za vaši podporu!"
+
+#: modules/templates/mod.php:11
+msgid "Templates"
+msgstr "Šablony"
+
+#: modules/templates/views/tpl/noTemplates.php:1
+msgid "No Templates were found"
+msgstr "Nenalezena žádná šablona"
+
+#: modules/templates/views/tpl/templatesTab.php:42
+msgid "Template Updated. Reload page to see results."
+msgstr "Šablona aktualizována. Pro zobrazení výsledku obnovte stránku."
+
+#: modules/templates/views/tpl/templatesTab.php:71
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: modules/templates/views/tpl/templatesTab.php:72
+msgid "Deactivate"
+msgstr "Vypnout"
+
+#: modules/warehouse/mod.php:73
+#, php-format
+msgid "Folder \"%s\" is not writable."
+msgstr "Do složky \"%s\" nelze zapisovat."
+
+#: modules/warehouse/mod.php:85
+#, php-format
+msgid "Can't create warehouse directory \"%s\"."
+msgstr "Nepodařilo se vytvořit warehouse adresář \"%s\"."
+
+#: modules/warehouse/models/temporary.php:69
+#, php-format
+msgid "Failed to clear temporary folder by pattern \"%s\""
+msgstr "Selhalo promazání dočasného adresáře by pattern \"%s\""
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "V průběhu API požadavku došlo k neočekávané HTTP chybě.</p> <p><a href=\"?"
+#~ "\" onclick=\"document.location.reload(); return false;\">Zkusit znovu</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Vyskytla se neznámá chyba"
+
+#~ msgid "Please, try again!"
+#~ msgstr "Prosím, zkuste to znovu!"
+
+#~ msgid ""
+#~ "Your license is expired. Once you extend your license - you will be able "
+#~ "to Update PRO version. To extend PRO version license - follow <a href=\"%s"
+#~ "\" target=\"_blank\">this link</a>, then - go to <a href=\"%s\">License</"
+#~ "a> tab and click on \"Re-activate\" button to re-activate your PRO "
+#~ "version."
+#~ msgstr ""
+#~ "Vaše licence vypršela. Jakmile prodloužíte vaši licenci - budete schopni "
+#~ "povýšit na PRO verzi. Pro rozšíření licence na PRO verzi - následujte <a "
+#~ "href=\"%s\" target=\"_blank\">tento odkaz</a>, poté - přejděte na záložku "
+#~ "<a href=\"%s\">Licence</a> na tlačítko \"Znovu-aktivovat\" pro obnovení "
+#~ "vaší PRO verze."
+
+#~ msgid ""
+#~ " Your license is expired. Once you extend your license - you will be able "
+#~ "to Update PRO version. To extend PRO version license - follow <a href=\"%s"
+#~ "\" target=\"_blank\">this link</a>, then - go to <a href=\"%s\">License</"
+#~ "a> tab anc click on \"Re-activate\" button to re-activate your PRO "
+#~ "version.\" target=\"_blank\">click here</a> to extend your license, then "
+#~ "- go to <a href=\"%s\">License</a> tab and click on \"Re-activate\" "
+#~ "button to re-activate your PRO version."
+#~ msgstr ""
+#~ " Vaše licence vypršela. Jakmile prodloužíte vaši licenci - budete schopni "
+#~ "povýšit na PRO verzi. Pro rozšíření licence na PRO verzi - následujte <a "
+#~ "href=\"%s\" target=\"_blank\">tento odkaz</a>, poté - přejděte na záložku "
+#~ "<a href=\"%s\">Licence</a> a klikněte na tlačítko \"Znovu-aktivovat\" pro "
+#~ "obnovení vaší PRO verze.\" target=\"_blank\">klikněte zde</a> pro "
+#~ "rozšíření vaší licence, poté - přejděte na záložku <a href=\"%s"
+#~ "\">Licence</a> a klikněte na tlačítko \"Znovu-aktivovat\" pro obnovení "
+#~ "vaší PRO verze."
+
+#~ msgid "Activate License"
+#~ msgstr "Aktivovat licenci"
+
+#~ msgid "Renew License"
+#~ msgstr "Obnovit licenci"
+
+#~ msgid ""
+#~ "There was a problem with sending request to our autentification server. "
+#~ "Please try latter."
+#~ msgstr ""
+#~ "Došlo k problému při odeslílání požadavku na náš autentizační server. "
+#~ "Zkuste to později."
+
+#~ msgid "License for plugin %s will expire today."
+#~ msgstr "Licence pro plugin %s vyprší dnes."
+
+#~ msgid "License for plugin %s will expire tomorrow."
+#~ msgstr "Licence pro plugin %s vyprší zítra."
+
+#~ msgid "<p>License for plugin %s will expire in %d days.</p>"
+#~ msgstr "<p>Licence pro plugin %s vyprší za %d dní.</p>"
+
+#~ msgid ""
+#~ "Congratulations! PRO version of %s plugin is activated and working fine!"
+#~ msgstr ""
+#~ "Gratulujeme! PRO verze %s pluginu byla aktivována a pracuje v pořádku!"
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin - expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - click "
+#~ "on \"Re-activate\" button to re-activate your PRO version."
+#~ msgstr ""
+#~ "Vaše licence pro PRO verze %s pluginu - vypršela. Pro prodloužení licence "
+#~ "můžete <a href=\"%s\" target=\"_blank\">kliknout zde</a>, poté - kliknout "
+#~ "na tlačítko \"Znovu-aktivovat\" pro obnovení vaší PRO verze."
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed PRO version of %s "
+#~ "plugin. Final step to finish Your PRO version setup - is to enter your "
+#~ "Email and License Key on this page. This will activate Your copy of "
+#~ "software on this site."
+#~ msgstr ""
+#~ "Gratulujeme! Úspěšně jste nainstalovali PRO verzi pluginu %s. Posledním "
+#~ "krokem pro dokončení nastavení vaší PRO verze -je vložit váš e-mail a "
+#~ "licenční klíč na této stránce. Tím bude aktivována kopie tohoto software "
+#~ "pro tyto webové stránky."
+
+#~ msgid ""
+#~ "Your email address, used on checkout procedure on <a href=\"%s\" target="
+#~ "\"_blank\">%s</a>"
+#~ msgstr ""
+#~ "Vaše e-mailová adresa, použitá při checkout proceduře na <a href=\"%s\" "
+#~ "target=\"_blank\">%s</a>"
+
+#~ msgid "License Key"
+#~ msgstr "Licenční klíč"
+
+#~ msgid ""
+#~ "Your License Key from your account on <a href=\"%s\" target=\"_blank\">"
+#~ "%s</a>"
+#~ msgstr ""
+#~ "Váš licenční klíč z vašeho účtu na <a href=\"%s\" target=\"_blank\">%s</a>"
+
+#~ msgid "Re-activate"
+#~ msgstr "Znovu-aktivovat"
+
+#~ msgid "License for plugin '"
+#~ msgstr "Licence pro plugin '"
+
+#~ msgid ""
+#~ "We're happy you keep using our product.<br/>Kindly note that testing "
+#~ "period of PRO Version is over in two days. You can <button class=\"button "
+#~ "button-primary button-small bupShowBuyDialog\">Get PRO</button> just for "
+#~ "29$"
+#~ msgstr ""
+#~ "Jsme rádi, že stále používáte náš produkt.<br/>Prosím vezměte na vědomí, "
+#~ "že testovací období PRO verze skončí za dva dny. Můžete <button class="
+#~ "\"button button-primary button-small bupShowBuyDialog\">získat PRO</"
+#~ "button> jen za 29$"
+
+#~ msgid "Find or replace data empty!"
+#~ msgstr "Najít nebo nahradit prázdná data!"
+
+#~ msgid ""
+#~ "Full documentation you can be found <a href=\"http://supsystic.com/"
+#~ "migrate-your-site-with-backup-by-supsystic/\" target=\"_blank\">here</a>"
+#~ msgstr ""
+#~ "Úplnou dokumentaci můžete nalézt <a href=\"http://supsystic.com/migrate-"
+#~ "your-site-with-backup-by-supsystic/\" target=\"_blank\">zde</a>"
+
+#~ msgid "Find"
+#~ msgstr "Najít"
+
+#~ msgid "Replace"
+#~ msgstr "Nahradit"
+
+#~ msgid "Site URL"
+#~ msgstr "URL stránek"
+
+#~ msgid "Get migration DB"
+#~ msgstr "Získat migraci DB"
+
+#~ msgid "Please, check connecting params!"
+#~ msgstr "Zkontrolujte parametry připojení!"
+
+#~ msgid "Error, please try again"
+#~ msgstr "Chyba, zkuste to znovu, prosím!"
+
+#~ msgid "Before start backup - - please authenticate on "
+#~ msgstr "Před spuštěním zálohy - - se prosím přihlaste."
+
+#~ msgid "Host name is wrong!"
+#~ msgstr "Neplatné jméno serveru!"
+
+#~ msgid "User or password don't be empty!"
+#~ msgstr "Uživatelské jméno ani heslo nemohou být prázdná!"
+
+#~ msgid "Wrong path on remote server!"
+#~ msgstr "Neplatní cesta na vzdáleném serveru!"
+
+#~ msgid "Invalid login or password!"
+#~ msgstr "Přihlašovací jméno / heslo je nesprávné!"
+
+#~ msgid ""
+#~ "There are no FTP extension on your server. You need to install it. How to "
+#~ "install check this link <a target=\"_blank\" href=\"http://php.net/manual/"
+#~ "en/book.ftp.php\">http://php.net/manual/en/book.ftp.php</a>"
+#~ msgstr ""
+#~ "Na vašem serveru není FTP rozšíření. Musíte ho instalovat. Jak ho "
+#~ "nainstalovat se dozvíte na tomto odkazu <a target=\"_blank\" href="
+#~ "\"http://php.net/manual/en/book.ftp.php\">http://php.net/manual/en/book."
+#~ "ftp.php</a>"
+
+#~ msgid ""
+#~ "There are no FTPS extension on your server. You need to install it. How "
+#~ "to install check this link <a target=\"_blank\" href=\"http://php.net/"
+#~ "manual/en/function.ftp-ssl-connect.php\">http://php.net/manual/en/"
+#~ "function.ftp-ssl-connect.php</a>"
+#~ msgstr ""
+#~ "Na vašem serveru není FTPS rozšíření. Musíte ho instalovat. Jak ho "
+#~ "nainstalovat se dozvíte na tomto odkazu <a target=\"_blank\" href="
+#~ "\"http://php.net/manual/en/function.ftp-ssl-connect.php\">http://php.net/"
+#~ "manual/en/function.ftp-ssl-connect.php</a>"
+
+#~ msgid ""
+#~ "There are no SFTP(Secure Shell2) extension on your server. You need to "
+#~ "install it. How to install check this link <a target=\"_blank\" href="
+#~ "\"http://php.net/manual/en/book.ssh2.php\">http://php.net/manual/en/book."
+#~ "ssh2.php</a>"
+#~ msgstr ""
+#~ "Na vašem serveru není SFTP(Secure Shell2) rozšíření. Musíte ho "
+#~ "instalovat. Jak ho nainstalovat se dozvíte na tomto odkazu <a target="
+#~ "\"_blank\" href=\"http://php.net/manual/en/book.ssh2.php\">http://php.net/"
+#~ "manual/en/book.ssh2.php</a>"
+
+#~ msgid "Migrate"
+#~ msgstr "Migrovat"
+
+#~ msgid "Store params"
+#~ msgstr "Parametry úložiště"
+
+#~ msgid "Schedule successfully removed!"
+#~ msgstr "Plán záloh byl úspěšně odstraněn!"
+
+#~ msgid "Before create schedule, you must login to "
+#~ msgstr "Před vytvořením plánu záloh - se musíte přihlásit"
+
+#~ msgid "Once Weekly"
+#~ msgstr "Jednou týdně"
+
+#~ msgid "Once a month"
+#~ msgstr "Jednou měsíčně"
+
+#~ msgid "Schedule Edit"
+#~ msgstr "Upravit plán záloh"
+
+#~ msgid "Schedule successfully edited!"
+#~ msgstr "Plán záloh byl úspěšně upraven!"
+
+#~ msgid "Cannot create schedule \""
+#~ msgstr "Plán záloh nelze vytvořit \""
+
+#~ msgid "Name will be unique, \""
+#~ msgstr "Jméno bude unikátní, \""
+
+#~ msgid "exist in DB."
+#~ msgstr "existuje v DB."
+
+#~ msgid "Schedule successfully created!"
+#~ msgstr "Plán záloh byl úspěšně vytvořen!"
+
+#~ msgid "Schedule must have name!"
+#~ msgstr "Plán záloh musí mít jméno!"
+
+#~ msgid "Please try again!"
+#~ msgstr "Prosím, zkuste to znovu!"
+
+#~ msgid "Start backup schedule:"
+#~ msgstr "Spustit zálohu podle plánu záloh:"
+
+#~ msgid "Every hour"
+#~ msgstr "Každou hodinu"
+
+#~ msgid "Twice a day"
+#~ msgstr "Dvakrát denně"
+
+#~ msgid "Every day"
+#~ msgstr "Každý den"
+
+#~ msgid "Every week"
+#~ msgstr "Každý týden"
+
+#~ msgid "Every month"
+#~ msgstr "Každý měsíc"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "OneDrive"
+#~ msgstr "OneDrive"
+
+#~ msgid "Google Drive"
+#~ msgstr "Google Disk"
+
+#~ msgid "Dropbox"
+#~ msgstr "Dropbox"
+
+#~ msgid "Amazon S3"
+#~ msgstr "Amazon S3"
+
+#~ msgid "Schedule Settings"
+#~ msgstr "Nastavení plánu záloh"
+
+#~ msgid "Every twice a day"
+#~ msgstr "Každé dva dny"
+
+#~ msgid ""
+#~ "If entering multiple files/directories, then separate them with commas."
+#~ msgstr "Uvádíte-li více souborů / adresářů, oddělte je čárkami."
+
+#~ msgid ""
+#~ "If the checkbox has been set up, then the backup path must be specified "
+#~ "in the Warehouse field against the root directory, where the WordPress is "
+#~ "installed. if the checkbox has been off, then the backup path must be "
+#~ "specified in the Warehouse field against the disk root."
+#~ msgstr ""
+#~ "Je-li toto zaškrtávací políčko zaškrtnuto, pak záložní cesta musí být ve "
+#~ "skladišti, oproti kořenovému adresáři, kde je WordPress nainstalován. "
+#~ "Pokud je zaškrtávací políčko zaškrtnuto nebylo, pak záložní cesta musí "
+#~ "být zadána v poli skladiště až ke kořeni disku."
+
+#~ msgid "User relative path"
+#~ msgstr "Použít relativní cestu"
+
+#~ msgid ""
+#~ "Backup schedule will upload data to the cloud services. To make the work "
+#~ "of backup scheduler smooth and correct, you need to be constantly "
+#~ "authorized on these services.\n"
+#~ "            Mind that if you're logged in on the page where back up is "
+#~ "being launched manually, you're automatically authorized on the editing "
+#~ "page of the back up plugin and vice versa. If you're logged out any of "
+#~ "these pages, you're non authorized on both of them."
+#~ msgstr ""
+#~ "Plán záloh bude nahrávat data do cloudových služeb. Aby práce plánovače "
+#~ "záloh probíhala hladce a správně, musíte být na tyto služby neustále "
+#~ "přihlášeni.\n"
+#~ "            Uvědomte si, že pokud jste přihlášeni na stránku, kde záloha "
+#~ "je zahájena manuálně, budete automaticky přihlášeni na editační stránce "
+#~ "zálohovacího pluginu a naopak. Pokud jste odhlášeni z některé z těchto "
+#~ "stránek, jste neautorizivaní na obou z nich."
+
+#~ msgid "Schedule Name:"
+#~ msgstr "Jméno plánu záloh"
+
+#~ msgid "Enable Schedule"
+#~ msgstr "Aktivovat plán záloh"
+
+#~ msgid "Save Schedule"
+#~ msgstr "Uložit plán záloh"
+
+#~ msgid "Create new schedule"
+#~ msgstr "Vytvořit nový plán záloh"
+
+#~ msgid ""
+#~ "<span class=\"bupWarningRed\">Warning:</span> The plugin can not increase "
+#~ "the standard work time of the script, please contact your hosting "
+#~ "provider.<br />\n"
+#~ "                        Detailed description <a class=\"bupBlueLink\" "
+#~ "target=\"_blank\" href=\"http://www.php.net/manual/en/info.configuration."
+#~ "php#ini.max-execution-time\">here</a><br />Current max_execution_time = "
+#~ msgstr ""
+#~ "<span class=\"bupWarningRed\">Varování:</span> Plugin nemůže zvýšit "
+#~ "standardní doby zpracání skriptu, obraťte se na svého poskytovatele "
+#~ "hostingových služeb.<br />\n"
+#~ "                        Detailní popis <a class=\"bupBlueLink\" target="
+#~ "\"_blank\" href=\"http://www.php.net/manual/en/info.configuration.php#ini."
+#~ "max-execution-time\">zde</a><br />Aktuální max_execution_time = "
+
+#~ msgid "Schedules"
+#~ msgstr "Plány záloh"
+
+#~ msgid "Periodicity"
+#~ msgstr "Pravidelnost"
+
+#~ msgid "Backup content"
+#~ msgstr "Obsah zálohy"
+
+#~ msgid "Edit"
+#~ msgstr "Upravit"
+
+#~ msgid "This log created by Migration module, on site: "
+#~ msgstr "Tento log byl vytvořen modulem pro migraci, na místě:"
+
+#~ msgid "Backup files don't exist!"
+#~ msgstr "Záložní soubory neexistují!"
+
+#~ msgid ""
+#~ "Entered secret key for decrypt/encrypt DB data wrong! Please, try again."
+#~ msgstr ""
+#~ "Vložený tajný klíč pro dešifrování / šifrování dat v DB je nesprávný! "
+#~ "Zkuste to znovu, prosím."
+
+#~ msgid "WordPress directory"
+#~ msgstr "Adresář WordPress"
+
+#~ msgid "New WP directory"
+#~ msgstr "Nový WP adresář "
+
+#~ msgid "Backup complete"
+#~ msgstr "Záloha je kompletní."
+
+#~ msgid "files scanned."
+#~ msgstr "suborů zkontrolováno."
+
+#~ msgid "Create a backup of the file system:"
+#~ msgstr "Vytvořit zálohu souborového systému:"
+
+#~ msgid "Create a backup of the database:"
+#~ msgstr "Vytvořit zálohu databáze:"
+
+#~ msgid "Errors during creation of database backup, errors count"
+#~ msgstr "Chyby během vytváření zálohy databáze, počet chyb"
+
+#~ msgid "Upload to the"
+#~ msgstr "Nahrát na"
+
+#~ msgid "required"
+#~ msgstr "vyžadováno"
+
+#~ msgid "Files to upload:"
+#~ msgstr "Soubory k nahrání:"
+
+#~ msgid "Successfully uploaded to the"
+#~ msgstr "Úspěšně nahráno na"
+
+#~ msgid ". Backup Error!"
+#~ msgstr ". Chyba zálohy!"
+
+#~ msgid "Sending to"
+#~ msgstr "Odesílání na"
